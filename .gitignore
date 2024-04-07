@@ -1,0 +1,11 @@
+.env
+my_venv/
+bjp_tweetdata_updated.csv
+loksabha2024_tweetdata_updated.csv
+mkstalin_tweetdata_updated.csv
+read.txt
+response_21_mar_2024.txt
+sentiment.png
+tweetcount.png
+tweetdata.csv
+tweetdata_updated.csv
