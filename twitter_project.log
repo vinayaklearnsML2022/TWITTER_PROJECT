@@ -1,0 +1,43 @@
+2024-04-14 21:03:57,206 - INFO - 
+
+ Search String = TN Elections 2024
+2024-04-14 21:03:57,206 - INFO - 
+
+ Twitter API Got Initialized
+2024-04-14 21:03:57,878 - INFO - Recent tweets count for a week is received
+2024-04-14 21:03:57,878 - INFO - tweets_count_df          date  tweets count
+0  2024-04-07            12
+1  2024-04-08            52
+2  2024-04-09            26
+3  2024-04-10            30
+4  2024-04-11            20
+5  2024-04-12            33
+6  2024-04-13            18
+7  2024-04-14           179
+2024-04-14 21:03:57,894 - INFO - 
+
+ tweets count written in tweetcount.csv
+2024-04-14 21:03:58,238 - INFO - 
+
+ tweets[[1779533510765695262, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 33, 45, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532590736900217, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 30, 6, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532500714598791, 'RT @SaffronSurge3: Rahul Gandhi addressed two rallies for 2024 elections in TN. Coimbatore &amp; Nellai. BJP winning both. \n\nWe should trend #T…', datetime.datetime(2024, 4, 14, 15, 29, 44, tzinfo=datetime.timezone.utc), 0, 12, 0], [1779531782020534563, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 26, 53, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779530841506632117, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 23, 9, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528276400275955, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, 57, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528034678391034, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779526330247508049, '@dmuthuk @annamalai_k BJP might get 20% of vote share in TN in 2024 elections.', datetime.datetime(2024, 4, 14, 15, 5, 13, tzinfo=datetime.timezone.utc), 0, 0, 27], [1779525321684832652, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 1, 13, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779525030181052567, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 0, 3, tzinfo=datetime.timezone.utc), 0, 163, 0]]
+2024-04-14 21:03:58,238 - INFO - 
+
+ result count 10
+2024-04-14 21:03:58,238 - INFO - 
+
+ response {'users': [<User id=784089205525848065 name=joshua divahar username=divaharjoshua>, <User id=2961911796 name=Mohammed Asiff username=mohammedasiff97>, <User id=1712528990957678593 name=Lord Krishna(Modi Ka Pariwar) username=LordKrishna_108>, <User id=842044757253619712 name=mahu username=mahupandi>, <User id=56373509 name=Sankar username=SankarMspl>, <User id=906031315 name=i_am esp username=selvaprakathees>, <User id=595152592 name=Raju username=rajoorag>, <User id=4924935601 name=Nitin Prakash username=nitin6ul>, <User id=1269556044117794816 name=Ganesha Munirajulu username=GaneshaMuniraj1>, <User id=915503236689272832 name=kathiravan username=Kathir_1988>]}
+2024-04-14 21:04:14,067 - INFO - 
+
+ tweets df              tweet_ids                                        tweets text  ... sentiment  percent
+0  1779533510765695262  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+1  1779532590736900217  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+2  1779532500714598791  RT @SaffronSurge3: Rahul Gandhi addressed two ...  ...  Positive    51.52
+3  1779531782020534563  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+4  1779530841506632117  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+5  1779528276400275955  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+6  1779528034678391034  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+7  1779526330247508049  @dmuthuk @annamalai_k BJP might get 20% of vot...  ...  Positive    52.63
+8  1779525321684832652  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+9  1779525030181052567  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+
+[10 rows x 14 columns]
