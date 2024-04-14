@@ -4,6 +4,8 @@ from sentiment import classifier
 # from sentiment import sentiment_value
 import tweepy
 
+import re
+
 from twitter import search_twitter as tweet
 import os
 from dotenv import load_dotenv
@@ -34,21 +36,27 @@ def run():
     
 
     client = tweet.initialise()
-    response = client.get_recent_tweets_count(query = string_value.get('name'),granularity='day')
+    # response = client.get_recent_tweets_count(query = string_value.get('name'),granularity='day')
 
-    print(response)
+    # print(len(response))
 
-    dates_lc = []
-    tweets_count_lc = []    
+    # dates_lc = []
+    # tweets_count_lc = []    
 
-    for i in range(len(response.data)):
-        dates_lc.append(response.data[i]['start'][:10])
-        tweets_count_lc.append(response.data[i]['tweet_count'])
+    # for i in range(len(response.data)):
+        # dates_lc.append(response.data[i]['start'][:10])
+        # tweets_count_lc.append(response.data[i]['tweet_count'])
+
+
+    # tweets_cnt_container= [[tweetcnt['start'][:10],tweetcnt['tweet_count']] for tweetcnt in response.data]  
+    # columns=['date', 'tweets count']
   
+    # tweetstweets_count_df = pd.DataFrame(tweets_cnt_container,columns=columns)
+    # tweetstweets_count_df.to_csv('tweetcount.csv', index=True)  
 
 
     # plotlc(tweets_count_lc,dates_lc,encoded_string)
-    plotlc(tweets_count_lc,dates_lc,string_value.get('name'))
+    # plotlc(tweets_count_lc,dates_lc,string_value.get('name'))
 
 
 
@@ -67,34 +75,87 @@ def run():
     # likecount = data.public_metrics.like_count
     # print(likecount)
 
-    response = client.search_recent_tweets(query = string_value.get('name') ,max_results=10)
+    # working code from here
+
+    response = client.search_recent_tweets(query = string_value.get('name') ,max_results=10, tweet_fields=['public_metrics','created_at'],expansions=['author_id'])
     print("response = ",response)
        
-    tweets_container= [[tweetread.id,tweetread.text] for tweetread in response.data]  
-    columns=['tweet_ids', 'tweets text']
+    tweets_container= [[tweetread.id,tweetread.text,tweetread.created_at,tweetread.public_metrics['like_count'],tweetread.public_metrics['retweet_count'],tweetread.public_metrics['impression_count']] for tweetread in response.data]  
+    columns=['tweet_ids', 'tweets text','created_at','like_count','retweet_count','impression_count']
+    print("\n\n")
+    print(f"tweets{tweets_container}")
 
     tweets_df = pd.DataFrame(tweets_container,columns=columns)
-    tweets_df.to_csv('tweetdata.csv', index=True)  
+    # tweets_df.to_csv('tweetdata.csv', index=True)  
 
-    df = pd.read_csv("tweetdata.csv")
-    df['toenglish']=[Translation(twee) for twee in df['tweets text']]
+    print(f"res cnt {response.meta['result_count']}")
     
-    df['sentiment']=[classi['label'] for classi in classifier(list(df['toenglish']))]
-    df['percent']=[round(classi['score'],4)*100 for classi in classifier(list(df['toenglish']))]
-    # df['likes_count']=[ client.get_tweets(ids=df['tweet_ids'].to_list(),tweet_fields=['public_metrics']).data.public_metrics['like_count']]
+    val = str(response.includes)
+    print(val)
+
+    userid = re.findall("User id=(.*?) name=",val)
+    name = re.findall("name=(.*?) userna",val)
+    username = re.findall("username=(.*?)>",val)
+    tweets_df['userid'] = userid
+    tweets_df['name'] = name
+    tweets_df['username'] = username
+
+
+
+   
+    
+   
+    # print(f"userid {userid}")
+    followers =[]
+  
+    for i in range(response.meta['result_count']):
+        response = client.get_user(id=userid[i],user_fields=['public_metrics'])
+        user_metrics = response.data['public_metrics']
+        followers.append(user_metrics['followers_count'])
+       
+
+    print(f"followers = {followers}")
+   
+    tweets_df['followers']=followers
+
+    # tweets_df.to_csv('tweetdatausers.csv', index=True) 
+
+
+
+    
+    # tweets_user_container= [val]  
+    # columns=['username']
+    # print("\n\n")
+    # print(f"tweet users{tweets_user_container}")
+
+    # tweets_df = pd.DataFrame(tweets_user_container,columns=columns)
+    # tweets_df.to_csv('tweetdata_users.csv', index=True)  
+
+    # df = pd.read_csv("tweetdata.csv")
+    tweets_df['toenglish']=[Translation(twee) for twee in tweets_df['tweets text']]
+    
+    tweets_df['sentiment']=[classi['label'] for classi in classifier(list(tweets_df['toenglish']))]
+    tweets_df['percent']=[round(classi['score'],4)*100 for classi in classifier(list(tweets_df['toenglish']))]
+    
     # df['likes_count']=[ client.get_tweet(id=tweet_id,tweet_fields=['public_metrics']).data.public_metrics['like_count'] for tweet_id in df['tweet_ids'] ]
-    # df['sentiment_tblob']= [TextBlob(classi).sentiment.polarity for classi in df['toenglish']]
+    # df['retweet_count']=[ client.get_tweet(id=tweet_id,tweet_fields=['public_metrics']).data.public_metrics['retweet_count'] for tweet_id in df['tweet_ids'] ]
+    # df['impression_count']=[ client.get_tweet(id=tweet_id,tweet_fields=['public_metrics']).data.public_metrics['impression_count'] for tweet_id in df['tweet_ids'] ]
 
-    df.to_csv('tweetdata_updated.csv', index=True) 
-    print(f"keys={df['sentiment'].value_counts().index.tolist()}")
-    print(f"values={df['sentiment'].value_counts().values}")
+    # print(f"like counts {df['likes_count']}")
+    # print(f"retweet counts {df['retweet_count']}")
+    # print(f"impression counts {df['impression_count']}")
 
 
-    # declaring data 
-    data = df['sentiment'].value_counts().values
-    keys = df['sentiment'].value_counts().index.tolist() 
+    tweets_df.to_csv('tweetdata_updated.csv', index=True) 
+    # print(f"keys={df['sentiment'].value_counts().index.tolist()}")
+    # print(f"values={df['sentiment'].value_counts().values}")
 
-    plotpie(data,keys,string_value.get('name'))
+
+    # # declaring data 
+    # data = df['sentiment'].value_counts().values
+    # keys = df['sentiment'].value_counts().index.tolist() 
+
+    # plotpie(data,keys,string_value.get('name'))
     
    
 if __name__ == "__main__":
