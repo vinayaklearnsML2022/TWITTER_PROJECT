@@ -1,43 +1,27 @@
-2024-04-14 21:03:57,206 - INFO - 
+2024-04-18 00:11:18,781 - INFO - 
 
  Search String = TN Elections 2024
-2024-04-14 21:03:57,206 - INFO - 
+2024-04-18 00:11:18,781 - INFO - 
 
  Twitter API Got Initialized
-2024-04-14 21:03:57,878 - INFO - Recent tweets count for a week is received
-2024-04-14 21:03:57,878 - INFO - tweets_count_df          date  tweets count
-0  2024-04-07            12
-1  2024-04-08            52
-2  2024-04-09            26
-3  2024-04-10            30
-4  2024-04-11            20
-5  2024-04-12            33
-6  2024-04-13            18
-7  2024-04-14           179
-2024-04-14 21:03:57,894 - INFO - 
+2024-04-18 00:11:20,937 - INFO - 
 
- tweets count written in tweetcount.csv
-2024-04-14 21:03:58,238 - INFO - 
-
- tweets[[1779533510765695262, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 33, 45, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532590736900217, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 30, 6, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532500714598791, 'RT @SaffronSurge3: Rahul Gandhi addressed two rallies for 2024 elections in TN. Coimbatore &amp; Nellai. BJP winning both. \n\nWe should trend #T…', datetime.datetime(2024, 4, 14, 15, 29, 44, tzinfo=datetime.timezone.utc), 0, 12, 0], [1779531782020534563, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 26, 53, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779530841506632117, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 23, 9, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528276400275955, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, 57, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528034678391034, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779526330247508049, '@dmuthuk @annamalai_k BJP might get 20% of vote share in TN in 2024 elections.', datetime.datetime(2024, 4, 14, 15, 5, 13, tzinfo=datetime.timezone.utc), 0, 0, 27], [1779525321684832652, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 1, 13, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779525030181052567, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 0, 3, tzinfo=datetime.timezone.utc), 0, 163, 0]]
-2024-04-14 21:03:58,238 - INFO - 
+ tweets[[1780627279950877083, '#LokSabhaElection2024 | If #ECI is really concerned about free &amp; fair elections, it can allow wall posters, displaying candidate names &amp; their respective symbols at all PDS shops &amp; govt offices in every constituency, said #MDMK treasurer.\nRead here:\nhttps://t.co/lm0q0WMFJG', datetime.datetime(2024, 4, 17, 16, 0, tzinfo=datetime.timezone.utc), 0, 0, 88], [1780597207219241108, 'RT @ezhil_jkm: Can elections be fair if voters are unaware of new symbols? How can half-informed voters decide? \n\n@ECISVEEP  should display…', datetime.datetime(2024, 4, 17, 14, 0, 30, tzinfo=datetime.timezone.utc), 0, 2, 0], [1780561667191136586, 'RT @ezhil_jkm: Can elections be fair if voters are unaware of new symbols? How can half-informed voters decide? \n\n@ECISVEEP  should display…', datetime.datetime(2024, 4, 17, 11, 39, 17, tzinfo=datetime.timezone.utc), 0, 2, 0], [1780559113023578358, 'Can elections be fair if voters are unaware of new symbols? How can half-informed voters decide? \n\n@ECISVEEP  should display candidate names, symbols at city points, ration shops, govt. offices, demand politicians\n\nMy story for @xpresstn \n\nhttps://t.co/r1yRXIPWRw', datetime.datetime(2024, 4, 17, 11, 29, 8, tzinfo=datetime.timezone.utc), 4, 2, 139], [1780504550106939440, 'This will be the watershed moment and song of the TN elections in 2024.\n#DMKFailsTN #Annamalai4CM #annamalaiBJP #NDAAlliance #NDA #TamilNadu #TamilNaduPolitics https://t.co/EfrX78fCI0', datetime.datetime(2024, 4, 17, 7, 52, 19, tzinfo=datetime.timezone.utc), 0, 0, 22], [1780500384571609104, '\u0ba8\u0bbe\u0b9f\u0bc1 \u0b95\u0bbe\u0b95\u0bcd\u0b95 - \u0ba8\u0bbe\u0bb3\u0bc8\u0baf \u0ba4\u0bb2\u0bc8\u0bae\u0bc1\u0bb1\u0bc8 \u0b95\u0bbe\u0b95\u0bcd\u0b95 \u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf\u0bbe \u0b95\u0bc2\u0b9f\u0bcd\u0b9f\u0ba3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bb3\u0bbf\u0baa\u0bcd\u0baa\u0bc0\u0bb0\u0bcd \u0b8e\u0ba9 \u0bb5\u0bc0\u0b9f\u0bbf\u0baf\u0bcb \u0bb5\u0bc6\u0bb3\u0bbf\u0baf\u0bbf\u0b9f\u0bcd\u0b9f\u0bc1 \u0bae\u0bc1\u0ba4\u0bb2\u0bcd\u0bb5\u0bb0\u0bcd \u0bb8\u0bcd\u0b9f\u0bbe\u0bb2\u0bbf\u0ba9\u0bcd \u0b95\u0bc7\u0b9f\u0bcd\u0b9f\u0bc1\u0b95\u0bcd \u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0bbe\u0bb0\u0bcd\n#MKStalin #LokSabhaElection2024 #INDIAAlliance #DMK #MKStalinCampaign \nhttps://t.co/37gjNZkXsf', datetime.datetime(2024, 4, 17, 7, 35, 46, tzinfo=datetime.timezone.utc), 0, 0, 86], [1780473618541191523, 'RT @Gourav_1810: **  Tamilnadu General Elections 2024 ANALYSIS  &amp;  Prediction ***\n\nDMK vote share in TN  ( 25% - 28% )\nAIADMK vote share in…', datetime.datetime(2024, 4, 17, 5, 49, 24, tzinfo=datetime.timezone.utc), 0, 2, 0], [1780464992355070108, '#ElectionsWithTheHindu | Claiming that the Centre’s share of funds to Tamil Nadu quadrupled after #PMModi came to power in 2014, BJP national president #JPNadda, at an election campaign in Tenkasi on Tuesday, April 16, 2024\nhttps://t.co/OdEJJaI6FW', datetime.datetime(2024, 4, 17, 5, 15, 8, tzinfo=datetime.timezone.utc), 1, 0, 536], [1780432717013770712, 'TASMAC Leave : \u0ba8\u0bbe\u0b9f\u0bbe\u0bb3\u0bc1\u0bae\u0ba9\u0bcd\u0bb1 \u0ba4\u0bc7\u0bb0\u0bcd\u0ba4\u0bb2\u0bbe\u0bb2\u0bcd \u0b9f\u0bbe\u0bb8\u0bcd\u0bae\u0bbe\u0b95\u0bcd \u0bb2\u0bc0\u0bb5\u0bcd! \u0bae\u0ba4\u0bc1 \u0b95\u0b9f\u0bc8\u0b95\u0bb3\u0bbf\u0bb2\u0bcd \u0ba8\u0bbf\u0bb0\u0bae\u0bcd\u0baa\u0bbf \u0bb5\u0bb4\u0bbf\u0ba8\u0bcd\u0ba4 \u0b95\u0bc2\u0b9f\u0bcd\u0b9f\u0bae\u0bcd..\n\n#TASMAC | #LokSabhaElection2024 | #Zeetamilnews \n\nhttps://t.co/FLjU7i9FkQ', datetime.datetime(2024, 4, 17, 3, 6, 53, tzinfo=datetime.timezone.utc), 0, 0, 142], [1780389570808549603, '@amarprasadreddy @gagsshri @annamalai_k In 2024 LS elections my desire is to see 10+ BJP MP’s from TN', datetime.datetime(2024, 4, 17, 0, 15, 26, tzinfo=datetime.timezone.utc), 2, 0, 72]]
+2024-04-18 00:11:20,937 - INFO - 
 
  result count 10
-2024-04-14 21:03:58,238 - INFO - 
-
- response {'users': [<User id=784089205525848065 name=joshua divahar username=divaharjoshua>, <User id=2961911796 name=Mohammed Asiff username=mohammedasiff97>, <User id=1712528990957678593 name=Lord Krishna(Modi Ka Pariwar) username=LordKrishna_108>, <User id=842044757253619712 name=mahu username=mahupandi>, <User id=56373509 name=Sankar username=SankarMspl>, <User id=906031315 name=i_am esp username=selvaprakathees>, <User id=595152592 name=Raju username=rajoorag>, <User id=4924935601 name=Nitin Prakash username=nitin6ul>, <User id=1269556044117794816 name=Ganesha Munirajulu username=GaneshaMuniraj1>, <User id=915503236689272832 name=kathiravan username=Kathir_1988>]}
-2024-04-14 21:04:14,067 - INFO - 
+2024-04-18 00:11:56,700 - INFO - 
 
  tweets df              tweet_ids                                        tweets text  ... sentiment  percent
-0  1779533510765695262  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-1  1779532590736900217  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-2  1779532500714598791  RT @SaffronSurge3: Rahul Gandhi addressed two ...  ...  Positive    51.52
-3  1779531782020534563  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-4  1779530841506632117  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-5  1779528276400275955  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-6  1779528034678391034  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-7  1779526330247508049  @dmuthuk @annamalai_k BJP might get 20% of vot...  ...  Positive    52.63
-8  1779525321684832652  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-9  1779525030181052567  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
+0  1780627279950877083  #LokSabhaElection2024 | If #ECI is really conc...  ...   Neutral    80.55
+1  1780597207219241108  RT @ezhil_jkm: Can elections be fair if voters...  ...  Negative    91.91
+2  1780561667191136586  RT @ezhil_jkm: Can elections be fair if voters...  ...  Negative    91.91
+3  1780559113023578358  Can elections be fair if voters are unaware of...  ...  Negative    89.25
+4  1780504550106939440  This will be the watershed moment and song of ...  ...  Positive    71.01
+5  1780500384571609104  \u0ba8\u0bbe\u0b9f\u0bc1 \u0b95\u0bbe\u0b95\u0bcd\u0b95 - \u0ba8\u0bbe\u0bb3\u0bc8\u0baf \u0ba4\u0bb2\u0bc8\u0bae\u0bc1\u0bb1\u0bc8 \u0b95\u0bbe\u0b95\u0bcd\u0b95 \u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf\u0bbe \u0b95\u0bc2\u0b9f\u0bcd\u0b9f...  ...   Neutral    48.81
+6  1780473618541191523  RT @Gourav_1810: **  Tamilnadu General Electio...  ...   Neutral    94.08
+7  1780464992355070108  #ElectionsWithTheHindu | Claiming that the Cen...  ...   Neutral    76.15
+8  1780432717013770712  TASMAC Leave : \u0ba8\u0bbe\u0b9f\u0bbe\u0bb3\u0bc1\u0bae\u0ba9\u0bcd\u0bb1 \u0ba4\u0bc7\u0bb0\u0bcd\u0ba4\u0bb2\u0bbe\u0bb2\u0bcd \u0b9f\u0bbe\u0bb8\u0bcd\u0bae\u0bbe\u0b95\u0bcd \u0bb2...  ...  Negative    76.76
+9  1780389570808549603  @amarprasadreddy @gagsshri @annamalai_k In 202...  ...  Positive    67.51
 
 [10 rows x 14 columns]
