@@ -16,18 +16,12 @@ import uvicorn
 from dataplotting import plotpie, plotlc
 
 from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium.webdriver.common.action_chains import ActionChains
-# from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 
 
 import logging
 logging.basicConfig(level=logging.INFO,filename="twitter_project.log",filemode='w',format="%(asctime)s - %(levelname)s - %(message)s")
-
 
 
 def run():
@@ -89,27 +83,6 @@ def run():
 
         print(f"\n\nDebug the Response {response}")
 
-        # val = str(response.includes)
-
-        # tweet_response = client.get_tweets(ids=tweets_df['tweet_ids'].to_list(),expansions=['entities.mentions.username'])
-        # print(f"\n\nDebug the Response {tweet_response}")
-        # logging.info(f"\n\n response {val}")
-        # userid = re.findall("User id=(.*?) name=",val)
-        # name = re.findall("name=(.*?) userna",val)
-        # username = re.findall("username=(.*?)>",val)
-
-        # username=[]
-        
-        # for tweets in tweets_df['tweets text']:
-        #     username.append(np.where(re.findall("@(\S*):",tweets)==None,"",re.findall("@(\S*):",tweets)))
-
-        
-        # usernames = [item for sublist in username for item in sublist]
-
-        # print(f"username {usernames}")
-
-        # tweets_df['userid'] = userid
-        # tweets_df['name'] = name
         username=[]
         tweets_df['tweet_url']="https://twitter.com/twitter/status/"+tweets_df['tweet_ids'].astype(str)
         
