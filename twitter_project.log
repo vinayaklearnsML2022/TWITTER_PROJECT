@@ -1,43 +1,12 @@
-2024-04-14 21:03:57,206 - INFO - 
+2024-04-18 18:04:05,169 - INFO - 
 
  Search String = TN Elections 2024
-2024-04-14 21:03:57,206 - INFO - 
+2024-04-18 18:04:05,170 - INFO - 
 
  Twitter API Got Initialized
-2024-04-14 21:03:57,878 - INFO - Recent tweets count for a week is received
-2024-04-14 21:03:57,878 - INFO - tweets_count_df          date  tweets count
-0  2024-04-07            12
-1  2024-04-08            52
-2  2024-04-09            26
-3  2024-04-10            30
-4  2024-04-11            20
-5  2024-04-12            33
-6  2024-04-13            18
-7  2024-04-14           179
-2024-04-14 21:03:57,894 - INFO - 
+2024-04-18 18:04:07,471 - INFO - 
 
- tweets count written in tweetcount.csv
-2024-04-14 21:03:58,238 - INFO - 
-
- tweets[[1779533510765695262, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 33, 45, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532590736900217, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 30, 6, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779532500714598791, 'RT @SaffronSurge3: Rahul Gandhi addressed two rallies for 2024 elections in TN. Coimbatore &amp; Nellai. BJP winning both. \n\nWe should trend #T…', datetime.datetime(2024, 4, 14, 15, 29, 44, tzinfo=datetime.timezone.utc), 0, 12, 0], [1779531782020534563, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 26, 53, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779530841506632117, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 23, 9, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528276400275955, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, 57, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779528034678391034, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 12, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779526330247508049, '@dmuthuk @annamalai_k BJP might get 20% of vote share in TN in 2024 elections.', datetime.datetime(2024, 4, 14, 15, 5, 13, tzinfo=datetime.timezone.utc), 0, 0, 27], [1779525321684832652, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 1, 13, tzinfo=datetime.timezone.utc), 0, 163, 0], [1779525030181052567, 'RT @sureshsambandam: We know how to run TN and in fact we want India to be run this way. Hence we need to vote rightly in 2024 elections. h…', datetime.datetime(2024, 4, 14, 15, 0, 3, tzinfo=datetime.timezone.utc), 0, 163, 0]]
-2024-04-14 21:03:58,238 - INFO - 
+ tweets[[1780896291989454958, 'My 2024 TN Lok Sabha Elections Predictions\n\n31-35 Seats - DMK Alliance\n      \n5-9 Seats - Any Party can Win/ Unable to predict \n\nPondichery\n\n1 Seat - BJP\n\n#IndianElections #TamilNadu \n#Election2024 #INDIAlliance  #NDAAlliance', datetime.datetime(2024, 4, 18, 9, 48, 58, tzinfo=datetime.timezone.utc), 0, 0, 16], [1780849969576218909, '@AveshKumarSingh @IndianPAC will be a joke in South India after 2024 elections! TG gone,TN gone, AP gone, it will be kicked out of South! Mr Prashant Kishore knew this long back and he retired in advance! Mark this tweet!', datetime.datetime(2024, 4, 18, 6, 44, 53, tzinfo=datetime.timezone.utc), 0, 0, 64], [1780840362761929045, '\u0b8e\u0b99\u0bcd\u0b95\u0bc7 \u0b93\u0b9f\u0bcd\u0b9f\u0bc1 \u0baa\u0bcb\u0b9f\u0ba3\u0bc1\u0bae\u0bcd\u0ba9\u0bc1 \u0ba4\u0bc6\u0bb0\u0bbf\u0baf\u0bb2\u0bc8\u0baf\u0bbe... \u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bc1\u0b9a\u0bcd\u0b9a\u0bbe\u0bb5\u0b9f\u0bbf\u0baf\u0bc8 \u0b87\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd - \u0bb0\u0bca\u0bae\u0bcd\u0baa \u0b88\u0bb8\u0bbf\n\n#ElectionCommissionofIndia | #ECI | #ZeeTamilNews\n\nhttps://t.co/IjQbazqdox', datetime.datetime(2024, 4, 18, 6, 6, 43, tzinfo=datetime.timezone.utc), 0, 0, 133], [1780837850289701287, '@chingchongwings these plus sikkim and TN fully. \nhttps://t.co/omf1W1cAqI https://t.co/ti2oFXBnvR', datetime.datetime(2024, 4, 18, 5, 56, 44, tzinfo=datetime.timezone.utc), 0, 0, 107], [1780831656397738206, 'Bharat Elections-2024 \n\n2500yrs old Utsav of Democracy to start\n\n102 constituencies along with whole state of TN going to polls tomorrow\n\nCanvassing &amp; heavy metal muzic &amp; dance to rhythm of Democracy have come to an end for 102 seats\n\nModelCodeOfConduct Freebies strictly \U0001f6d1\n\nJai https://t.co/CsSoqFE5nV', datetime.datetime(2024, 4, 18, 5, 32, 7, tzinfo=datetime.timezone.utc), 0, 0, 7], [1780820449020227792, 'Tamil Nadu is set to vote on Friday to elect 39 Lok Sabha members in a single-phase election that is witnessing a keen triangular contest after a decade with three alliance formations led by the DMK, AIADMK, and BJP fighting it out.\n https://t.co/gHG0hcVtnB', datetime.datetime(2024, 4, 18, 4, 47, 35, tzinfo=datetime.timezone.utc), 2, 0, 180], [1780800721534996626, 'Lok Sabha polls 2024: TN to vote on April 19 \n\n#TamilNadu #LokSabhaElections2024 \n\nhttps://t.co/1v6srjRAVD', datetime.datetime(2024, 4, 18, 3, 29, 12, tzinfo=datetime.timezone.utc), 0, 0, 95], [1780787790898438203, 'RT @sri50: The fierce high-octane campaigning for the first Phase of 2024 Lok Sabha elections including Tamil Nadu came to an end yesterday…', datetime.datetime(2024, 4, 18, 2, 37, 49, tzinfo=datetime.timezone.utc), 0, 2, 0], [1780781772156158368, 'RT @sri50: The fierce high-octane campaigning for the first Phase of 2024 Lok Sabha elections including Tamil Nadu came to an end yesterday…', datetime.datetime(2024, 4, 18, 2, 13, 54, tzinfo=datetime.timezone.utc), 0, 2, 0], [1780781078128579026, 'RT @marikosegawa: @TyPinkins #DemVoice1 #ResistanceBlue #wtpBLUE #DemsAct #DemsUnited \n@nordstromfortn has worked for local Dems while teac…', datetime.datetime(2024, 4, 18, 2, 11, 8, tzinfo=datetime.timezone.utc), 0, 75, 0]]
+2024-04-18 18:04:07,471 - INFO - 
 
  result count 10
-2024-04-14 21:03:58,238 - INFO - 
-
- response {'users': [<User id=784089205525848065 name=joshua divahar username=divaharjoshua>, <User id=2961911796 name=Mohammed Asiff username=mohammedasiff97>, <User id=1712528990957678593 name=Lord Krishna(Modi Ka Pariwar) username=LordKrishna_108>, <User id=842044757253619712 name=mahu username=mahupandi>, <User id=56373509 name=Sankar username=SankarMspl>, <User id=906031315 name=i_am esp username=selvaprakathees>, <User id=595152592 name=Raju username=rajoorag>, <User id=4924935601 name=Nitin Prakash username=nitin6ul>, <User id=1269556044117794816 name=Ganesha Munirajulu username=GaneshaMuniraj1>, <User id=915503236689272832 name=kathiravan username=Kathir_1988>]}
-2024-04-14 21:04:14,067 - INFO - 
-
- tweets df              tweet_ids                                        tweets text  ... sentiment  percent
-0  1779533510765695262  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-1  1779532590736900217  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-2  1779532500714598791  RT @SaffronSurge3: Rahul Gandhi addressed two ...  ...  Positive    51.52
-3  1779531782020534563  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-4  1779530841506632117  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-5  1779528276400275955  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-6  1779528034678391034  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-7  1779526330247508049  @dmuthuk @annamalai_k BJP might get 20% of vot...  ...  Positive    52.63
-8  1779525321684832652  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-9  1779525030181052567  RT @sureshsambandam: We know how to run TN and...  ...  Positive    48.66
-
-[10 rows x 14 columns]
