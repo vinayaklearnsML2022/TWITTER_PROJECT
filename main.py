@@ -54,7 +54,7 @@ twitter_insta = Twitteruse()
 
 if search_button or st.session_state.search_button:
     
-    twitter_insta = Twitteruse()
+    
     # st.session_state.twitter_insta = twitter_insta
 
     st.session_state.search_button=True
