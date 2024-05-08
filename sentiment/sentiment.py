@@ -1,12 +1,16 @@
 from transformers import pipeline
 import torch
+import re
 
 
 
-def classifier(text):
-    # classify = pipeline("sentiment-analysis",model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
-    classify = pipeline("sentiment-analysis",model="cardiffnlp/xlm-twitter-politics-sentiment")
-    res = classify(text)
-   
-    return res
+class classifier:
+
+    def __init__(self,text):
+        self.text=text
+
+    def sentiment(self):
+        classify = pipeline("sentiment-analysis",model="cardiffnlp/xlm-twitter-politics-sentiment")
+        res = classify(self.text)
+        return "".join(map(str, re.findall("'label': '(.*?)'",str(res))))
 

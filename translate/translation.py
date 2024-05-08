@@ -2,7 +2,12 @@ import deep_translator
 from deep_translator import GoogleTranslator
 
 
-def Translation(text):
-    eng = GoogleTranslator(source='auto').translate(text)[:1000]
-    return eng
+class Translation:
+
+    def __init__(self,text):
+        self.text=text
+
+    def google(self):
+        eng = GoogleTranslator(source='auto').translate(self.text)[:1000]
+        return eng
 
