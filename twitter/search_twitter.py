@@ -10,7 +10,7 @@ from conversion import extraction_username,unicode
 from dotenv import load_dotenv
 import os
 import pandas as pd
-import swifter
+
 
 
    
