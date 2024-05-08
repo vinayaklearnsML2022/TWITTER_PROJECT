@@ -47,7 +47,7 @@ st.header("Twitter Sentiment Analysis")
 st.subheader("Please Enter your search string or #")
 search_string = st.text_input(" ")
 search_button = st.button("Search")
-twitter_insta = Twitteruse()
+
 
     
 
@@ -61,6 +61,7 @@ if search_button or st.session_state.search_button:
     onesearch=True
     print(f"search_string = {search_string} ")
     logging.info(f"\n\n Twitter API Got Initialized")
+    twitter_insta = Twitteruse()
 
     if search_button:
         search_button = False
@@ -101,6 +102,7 @@ Analyze_tweets = st.button("   Get Tweets and Analyze  ")
 if Analyze_tweets or st.session_state.Analyze_tweets:
     
     # Analyze_tweets = False
+    twitter_insta = Twitteruse()
    
 
     # print(f"tweet_count_slider{st.session_state.tweet_count_slider}")
