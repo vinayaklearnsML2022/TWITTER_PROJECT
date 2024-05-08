@@ -106,15 +106,15 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
     # print(f"tweet_count_slider{st.session_state.tweet_count_slider}")
     if Analyze_tweets:
         st.session_state.Analyze_tweets = True
-        progress_text = "Operation in progress. Please wait."
-        my_bar = st.progress(0, text=progress_text)
+        # progress_text = "Operation in progress. Please wait."
+        # my_bar = st.progress(0, text=progress_text)
 
-        for percent_complete in range(100):
-            time.sleep(0.1)
-            my_bar.progress(percent_complete + 1, text=progress_text)
+        # for percent_complete in range(100):
+        #     time.sleep(0.1)
+        #     my_bar.progress(percent_complete + 1, text=progress_text)
 
         tweet_data = twitter_insta.get_tweets(search_string,str(min_date)+"T00:00:00.000Z",str(max_date)+"T00:00:00.000Z",st.session_state.tweet_count_slider)
-        my_bar.progress(percent_complete + 1, text="Sentiment Analysis Results are ready")
+        # my_bar.progress(percent_complete + 1, text="Sentiment Analysis Results are ready")
     
    
                                     
