@@ -154,7 +154,7 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
             if like_count>0:
                 col3.empty()
                 twitter_insta.get_influencers_likes()
-                weet_data = pd.read_csv("Top_influencers_from_liked_tweets.csv")
+                tweet_data = pd.read_csv("Top_influencers_from_liked_tweets.csv")
                 col3.dataframe(tweet_data)  
        
 

@@ -1,7 +1,7 @@
 import tweepy
-from translate import Translation
-from sentiment import classifier
-from conversion import Conversion
+from translate import google
+from sentiment import sentiment
+from conversion import extraction_username,unicode
 
 
 
@@ -10,6 +10,7 @@ from conversion import Conversion
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import swifter
 
 
    
@@ -51,9 +52,9 @@ class Twitteruse:
         tweets_df = pd.DataFrame(tweets_container,columns=columns)
         # tweets_df['conv_tweets'] = tweets_df['tweets text'].apply(lambda x : Conversion(x).unicode())
         # logging.info(f"\n\n conv_tweets formed")
-        tweets_df['user_mentions'] = tweets_df['tweets text'].apply(lambda x : Conversion(x).extraction_username())
-        tweets_df['toenglish'] = tweets_df['tweets text'].apply(lambda x : Translation(x).google())
-        tweets_df['sentiment'] = tweets_df['toenglish'].apply(lambda x : classifier(x).sentiment())
+        tweets_df['user_mentions'] = tweets_df['tweets text'].transform(extraction_username)
+        tweets_df['toenglish'] = tweets_df['tweets text'].transform(google)
+        tweets_df['sentiment'] = tweets_df['toenglish'].transform(sentiment)
         
         tweets_df.to_csv('tweetdata_checking.csv') 
         

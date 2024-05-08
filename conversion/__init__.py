@@ -1,1 +1,1 @@
-from .textconversion import Conversion
+from .textconversion import unicode, extraction_username

@@ -1,57 +1,116 @@
 ,tweet_ids,tweets text,created_at,like_count,retweet_count,userid,user_mentions,toenglish,sentiment
-0,1787993828269424901,RT @JThakers: Me after voting Coolest PM for  #AbkiBaar400Baar 😂😂😂 https://t.co/YLqLlKhSpv,2024-05-07 23:52:02+00:00,0,368,702789259,JThakers,RT @JThakers: Me after voting Coolest PM for  #AbkiBaar400Baar 😂😂😂 https://t.co/YLqLlKhSpv,Positive
-1,1787993514246341091,"RT @AdvAshutoshBJP: The coolest PM and The dictator hacked the EVM again 😂
- https://t.co/lakYXlOTUd",2024-05-07 23:50:47+00:00,0,598,1600410867614756864,AdvAshutoshBJP,"RT @AdvAshutoshBJP: The coolest PM and The dictator hacked the EVM again 😂
- https://t.co/lakYXlOTUd",Negative
-2,1787993491500650518,"RT @manojkrs29: COOLEST PM EVER 😂❤💙
+0,1787956419905679674,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 21:23:23+00:00,0,21,1072109237688459264,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+1,1787900704700436634,"📢 Just in: 22 nominations rejected in Jharkhand Lok Sabha elections' 6th phase. Ranchi, Jamshedpur, Giridih, and Dhanbad constituencies impacted. For more details, read the blog post here: https://t.co/K5T0HydRTC 🗳️ #JharkhandElections #LokSabha #TownPost",2024-05-07 17:42:00+00:00,0,0,1245701802932056065,,"📢 Just in: 22 nominations rejected in Jharkhand Lok Sabha elections' 6th phase. Ranchi, Jamshedpur, Giridih, and Dhanbad constituencies impacted. For more details, read the blog post here: https://t.co/K5T0HydRTC 🗳️ #JharkhandElections #LokSabha #TownPost",Neutral
+2,1787895097662783589,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 17:19:43+00:00,0,21,54516759,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+3,1787863810558042220,"#LokSabhaElections2024 Phase 3: Polling for the third phase of the #LokSabha elections concluded on Tuesday with a voter turnout of over 61.16  per cent while #Assam recorded the highest #voterturnout at 75%
+https://t.co/CPmUPATnY1",2024-05-07 15:15:23+00:00,3,0,161318053,,"#LokSabhaElections2024 Phase 3: Polling for the third phase of the #LokSabha elections concluded on Tuesday with a voter turnout of over 61.16  per cent while #Assam recorded the highest #voterturnout at 75%
+https://t.co/CPmUPATnY1",Neutral
+4,1787862998440108133,"🔍 Jamshedpur Lok Sabha Constituency disqualifies six candidates after detailed review, making them ineligible for the 2024 elections. Read more about the scrutiny process and its outcomes here: https://t.co/wR38QRShiP #Jamshedpur #LokSabha #Elections2024",2024-05-07 15:12:10+00:00,0,0,1245701802932056065,,"🔍 Jamshedpur Lok Sabha Constituency disqualifies six candidates after detailed review, making them ineligible for the 2024 elections. Read more about the scrutiny process and its outcomes here: https://t.co/wR38QRShiP #Jamshedpur #LokSabha #Elections2024",Neutral
+5,1787861454865027129,"RT @NSSOpenUnit: ℕ𝕆𝕋 𝕄𝔼, 𝔹𝕌𝕋 𝕐𝕆𝕌
+Cordial invitation to join Walkathon 2.0 in raising  Voter Literacy Awareness for upcoming #LokSabha #Elec…",2024-05-07 15:06:02+00:00,0,4,1547596482412675072,NSSOpenUnit,"RT @NSSOpenUnit: ℕ𝕆𝕋 𝕄𝔼, 𝔹𝕌𝕋 𝕐𝕆𝕌
+Cordial invitation to join Walkathon 2.0 in raising  Voter Literacy Awareness for upcoming #LokSabha #Elec…",Positive
+6,1787850169549312060,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 14:21:11+00:00,0,21,1736751918536704000,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+7,1787845121683402838,RT @aajtak: गुजरात के राजकोट में कांग्रेस को बड़ा झटका लगा है. ठीक चुनाव के बीच में पार्टी के दो बड़े नेताओं ने भाजपा का दामन थाम लिया है.…,2024-05-07 14:01:08+00:00,0,4,854973066408898560,aajtak,"RT @aajtak: Congress has suffered a major setback in Rajkot, Gujarat. Right in the middle of the elections, two big leaders of the party have joined BJP.…",Negative
+8,1787842260840612030,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 13:49:46+00:00,0,21,3246770231,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+9,1787841061869453802,"क्या अब गर्मी में नहीं होंगे चुनाव? क्लाइमेट चेंज ने इलेक्शन की दशा-दिशा बदली!
+#summer #heatwave #weather #kisantak #LokSabha #election
+https://t.co/08DTnPBNEh https://t.co/VOcnWfXvm6",2024-05-07 13:45:00+00:00,0,0,1572501444884049921,,"Will elections not be held in summer now? Climate change changed the direction of elections!
+#summer #heatwave #weather #kisantak #LokSabha #election
+https://t.co/08DTnPBNEh https://t.co/VOcnWfXvm6",Negative
+10,1787837981748810097,RT @aajtak: गुजरात के राजकोट में कांग्रेस को बड़ा झटका लगा है. ठीक चुनाव के बीच में पार्टी के दो बड़े नेताओं ने भाजपा का दामन थाम लिया है.…,2024-05-07 13:32:45+00:00,0,4,1596906417038016515,aajtak,"RT @aajtak: Congress has suffered a major setback in Rajkot, Gujarat. Right in the middle of the elections, two big leaders of the party have joined BJP.…",Negative
+11,1787837258999165375,RT @aajtak: गुजरात के राजकोट में कांग्रेस को बड़ा झटका लगा है. ठीक चुनाव के बीच में पार्टी के दो बड़े नेताओं ने भाजपा का दामन थाम लिया है.…,2024-05-07 13:29:53+00:00,0,4,1677222476353519616,aajtak,"RT @aajtak: Congress has suffered a major setback in Rajkot, Gujarat. Right in the middle of the elections, two big leaders of the party have joined BJP.…",Negative
+12,1787836852545741062,RT @aajtak: गुजरात के राजकोट में कांग्रेस को बड़ा झटका लगा है. ठीक चुनाव के बीच में पार्टी के दो बड़े नेताओं ने भाजपा का दामन थाम लिया है.…,2024-05-07 13:28:16+00:00,0,4,890968019706331136,aajtak,"RT @aajtak: Congress has suffered a major setback in Rajkot, Gujarat. Right in the middle of the elections, two big leaders of the party have joined BJP.…",Negative
+13,1787836345173315704,"गुजरात के राजकोट में कांग्रेस को बड़ा झटका लगा है. ठीक चुनाव के बीच में पार्टी के दो बड़े नेताओं ने भाजपा का दामन थाम लिया है.
 
-X User Krishna - Posting this video cuz I know that 'THE DICTATOR' is not going to get me arrested for…",2024-05-07 23:50:42+00:00,0,10,101214055,manojkrs29,"RT @manojkrs29: COOLEST PM EVER 😂❤💙
+#Gujarat #LokSabhaElections2024 #LokSabha | @brijdoshi 
 
-X User Krishna - Posting this video cuz I know that 'THE DICTATOR' is not going to get me arrested for…",Positive
-3,1787992442475802918,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+ https://t.co/bx3UdYm13p",2024-05-07 13:26:15+00:00,49,4,42606652,,"Congress has suffered a major setback in Rajkot, Gujarat. Right in the middle of the elections, two big leaders of the party have joined BJP.
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",2024-05-07 23:46:32+00:00,0,2916,82819725,JaipurDialogues,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+#Gujarat #LokSabhaElections2024 #LokSabha | @brijdoshi
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",Negative
-4,1787992267434676257,"RT @AdvAshutoshBJP: The coolest PM and The dictator hacked the EVM again 😂
- https://t.co/lakYXlOTUd",2024-05-07 23:45:50+00:00,0,598,157156945,AdvAshutoshBJP,"RT @AdvAshutoshBJP: The coolest PM and The dictator hacked the EVM again 😂
- https://t.co/lakYXlOTUd",Negative
-5,1787992210371379377,"RT @Memefied_O: #PollHumour
-Not the first time, he created this kind of mic drop moment several times.
+ https://t.co/bx3UdYm13p",Negative
+14,1787831717811900665,RT @eOrganiser: PM Modi's participation in third phase of #LokSabha elections brought attention to significance of voting in India's democr…,2024-05-07 13:07:52+00:00,0,1,1666873268,eOrganiser,RT @eOrganiser: PM Modi's participation in third phase of #LokSabha elections brought attention to significance of voting in India's democr…,Neutral
+15,1787827707478155266,"RT @mypunjabitv: LokSabha ਚੋਣਾਂ 2024 ਭਲਕੇ 94 ਸੀਟਾਂ 'ਤੇ ਹੋਵੇਗੀ ਵੋਟਿੰਗ
+@ShramitChd @preet_sarna
+#LokSabha #loksabhachunav2024 #elections #10s…",2024-05-07 12:51:56+00:00,0,2,1787393545357156352,mypunjabitv,"RT @mypunjabitv: LokSabha Election 2024 Voting will be held in 94 seats tomorrow
+@ShramitChd @preet_sarna
+#LokSabha #loksabhachunav2024 #elections #10s…",Neutral
+16,1787807735817425352,"Loksabha Election 2024: ભરુચ બેઠકનો આ કેવો ઇતિહાસ, 16 ચૂંટણીમાં ફક્ત 5 જ સાંસદ ? જાણો શું છે વિગત
+https://t.co/QCbJvvbO2R
 
-Coolest PM for a reason. 
+#LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #madhypradesh #elections #elections24 #Politics #voting #Phase3 #Baruch",2024-05-07 11:32:34+00:00,0,0,1628362962691031040,,"Loksabha Election 2024: What is the history of Bharuch seat, only 5 MPs in 16 elections? Find out what the details are
+https://t.co/QCbJvvbO2R
 
-The meme…",2024-05-07 23:45:36+00:00,0,514,747026648,Memefied_O,"RT @Memefied_O: #PollHumour
-Not the first time, he created this kind of mic drop moment several times.
+#LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #madhypradesh #elections #elections24 #Politics #voting #Phase3 #Baruch",Neutral
+17,1787804192528113705,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 11:18:29+00:00,0,21,304547610,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+18,1787790386070507600,"Loksabah Election 2024: સીદી બાદશાહ સમુદાયે પરંપરાગત નૃત્ય કરી કર્યું મતદાન, જુઓ વીડિયો
+https://t.co/HRHDPLWsw3
+#LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #madhypradesh #elections #elections24 #Politics #voting #Phase3",2024-05-07 10:23:38+00:00,0,0,1628362962691031040,,"Loksabah Election 2024: Sidi Badshah community voted with traditional dance, watch video
+https://t.co/HRHDPLWsw3
+#LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #madhypradesh #elections #elections24 #Politics #voting #Phase3",Neutral
+19,1787786000363589918,"Differently-abled run voting center in Maharashtra during Lok Sabha Polls 2024
+#elections #Elections2024 #India #LokSabha
+https://t.co/LlJHAF0EjW",2024-05-07 10:06:12+00:00,2,0,1709228827984171008,,"Differently-abled run voting center in Maharashtra during Lok Sabha Polls 2024
+#elections #Elections2024 #India #LokSabha
+https://t.co/LlJHAF0EjW",Neutral
+20,1787777098658050059,"Lok Sabha Elections 2024 : Tight contests in the third phase of Maharashtra.
+https://t.co/3FVkJg1rff
 
-Coolest PM for a reason. 
+#india #news #loksabha #elections2024 #thirdphase #maharashtra #elections #tightcontests  #maharashtraelections #elections2024 #indianelections #voteforindia #democracy… https://t.co/i4qz9HkSXB",2024-05-07 09:30:50+00:00,1,0,1769672175236116482,,"Lok Sabha Elections 2024 : Tight contests in the third phase of Maharashtra.
+https://t.co/3FVkJg1rff
 
-The meme…",Positive
-6,1787991943299137669,"RT @Shibin_twitz: அவரைப் பற்றின troll videoவை ரசித்த பிரதமர்😀
+#india #news #loksabha #elections2024 #thirdphase #maharashtra #elections #tightcontests  #maharashtraelections #elections2024 #indianelections #voteforindia #democracy… https://t.co/i4qz9HkSXB",Neutral
+21,1787770262873575608,"#LokSabhaElections2024 Phase 3 | An overall #voterturnout of around 40% was recorded as of 1 pm on Tuesday in the third phase of the ongoing #LokSabha elections. The highest overall voter turnout was recorded in #WestBengal at 49.27 per cent as of 1 pm
+https://t.co/b0UNMCUECe",2024-05-07 09:03:40+00:00,2,0,161318053,,"#LokSabhaElections2024 Phase 3 | An overall #voterturnout of around 40% was recorded as of 1 pm on Tuesday in the third phase of the ongoing #LokSabha elections. The highest overall voter turnout was recorded in #WestBengal at 49.27 per cent as of 1 pm
+https://t.co/b0UNMCUECe",Neutral
+22,1787766641515757847,"#LIVE | A voter turnout of 39.92 % has been recorded till 1:00 PM on 7 May, during the third phase of polling in the #LokSabha elections.
 
-The Coolest PM ever♥️ https://t.co/0fIGoDSfPt",2024-05-07 23:44:33+00:00,0,108,1462274652416315393,Shibin_twitz,"RT @Shibin_twitz: The Prime Minister enjoyed the troll video about him😀
+Follow #LokSabhaElection2024 updates: https://t.co/Ww4hJNRso3 https://t.co/BkSZkr7UE2",2024-05-07 08:49:17+00:00,3,0,2982269822,,"#LIVE | A voter turnout of 39.92 % has been recorded till 1:00 PM on 7 May, during the third phase of polling in the #LokSabha elections.
 
-The Coolest PM ever♥️ https://t.co/0fIGoDSfPt",Positive
-7,1787991245299827142,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+Follow #LokSabhaElection2024 updates: https://t.co/Ww4hJNRso3 https://t.co/BkSZkr7UE2",Neutral
+23,1787765729414058045,"Riteish Deshmukh and Genelia D’Souza, a well-known celebrity couple, participated in the ongoing Lok Sabha Elections 2024 by casting their votes at a polling station in Latur, Maharashtra. 
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",2024-05-07 23:41:46+00:00,0,2916,1782621132128206848,JaipurDialogues,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+#LokSabhaElections #riteshdeshmukh #GeneliaDeshmukh #voting #loksabha #elections https://t.co/ZYrmG7AsKq",2024-05-07 08:45:39+00:00,0,0,1063361069043789824,,"Riteish Deshmukh and Genelia D’Souza, a well-known celebrity couple, participated in the ongoing Lok Sabha Elections 2024 by casting their votes at a polling station in Latur, Maharashtra. 
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",Negative
-8,1787991171786309929,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+#LokSabhaElections #riteshdeshmukh #GeneliaDeshmukh #voting #loksabha #elections https://t.co/ZYrmG7AsKq",Neutral
+24,1787764721749496136,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 08:41:39+00:00,0,21,2438667019,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+25,1787757469080375313,"""They are hoping that PM #Modi's election campaign speech will help to polarizes voters on communal lines in the #Rajampet #LokSabha constituency, which will then help #KiranReddy to win the election"", writes Jinka Nagaraju @ujinka
+https://t.co/RqsdhSOnMR",2024-05-07 08:12:50+00:00,0,0,965845248281755649,,"""They are hoping that PM #Modi's election campaign speech will help to polarizes voters on communal lines in the #Rajampet #LokSabha constituency, which will then help #KiranReddy to win the election"", writes Jinka Nagaraju @ujinka
+https://t.co/RqsdhSOnMR",Positive
+26,1787735152912998711,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,2024-05-07 06:44:09+00:00,0,21,1696111016,the_hindu,RT @the_hindu: #ElectionsWithTheHindu | A total of 93 #LokSabha constituencies in 12 States will vote in the third phase of the ​​general e…,Neutral
+27,1787734379504005477,"गुजरात, मध्य प्रदेश, कर्नाटक समेत 11 राज्यों और केंद्र शासित प्रदेशों की कुल 93 सीटों पर आज तीसरे चरण का मतदान हो रहा है।
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",2024-05-07 23:41:29+00:00,0,2916,756519593368248320,JaipurDialogues,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+वेबसाइट पर जाकर देखें मतदान से जुड़ी सारी अपडेट - 
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",Negative
-9,1787990096697835922,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+https://t.co/zyGhVgUP45
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",2024-05-07 23:37:12+00:00,0,2916,28296287,JaipurDialogues,"RT @JaipurDialogues: People call him Dictator. We call him Coolest PM 
+#loksabha #loksabhaɛlections2024 #votingrights #votingupdate #electionupdate",2024-05-07 06:41:05+00:00,0,0,1016933371585286144,,"The third phase of voting is being held today on a total of 93 seats in 11 states and union territories including Gujarat, Madhya Pradesh, Karnataka.
 
-Go out and Vote if you want UCC
-Go out and Vote if you want Waqf Ac…",Negative
+Visit the website to see all the updates related to voting -
+
+https://t.co/zyGhVgUP45
+
+#loksabha #loksabhaɛelections2024 #votingrights #votingupdate #electionupdate",Neutral
+28,1787733539879801332,"Loksabha Third Phase Poll: 94 सीटों पर थमा चुनाव प्रचार, 7 मई को होगी वोटिंग
+
+#Loksabha #Election2024
+
+https://t.co/gPBUqVhzum",2024-05-07 06:37:45+00:00,0,0,1712033972337958912,,"Loksabha Third Phase Poll: Election campaign stopped on 94 seats, voting will take place on May 7
+
+#Loksabha #Election2024
+
+https://t.co/gPBUqVhzum",Neutral
+29,1787732694065090616,"Lok Sabha Election 2024 Phase 3: મતદાન તો કર્યું પછી અમિત શાહનો પિત્તો ગયો, ગુસ્સે ભરાઈને કહી દીધું કે...
+
+#middaynews #middaygujarati #unionminister #loksabha #elections #amitshah #people #gandhinagar #polling #booth #news 
+
+https://t.co/rpKjjps8Ke https://t.co/tJqkAlmiL7",2024-05-07 06:34:23+00:00,0,0,1063361069043789824,,"Lok Sabha Election 2024 Phase 3: After voting, Amit Shah lost his temper, angrily said that...
+
+#middaynews #middaygujarati #unionminister #loksabha #elections #amitshah #people #gandhinagar #polling #booth #news
+
+https://t.co/rpKjjps8Ke https://t.co/tJqkAlmiL7",Negative
+30,1787730458773422553,"Loksabha Election 2024: સાંસદ રામ મોકરિયાની તબિયત લથડી, હોસ્પિટલમાં કરાયા દાખલ
+https://t.co/CZIZIsS21q
+#LokSabha #rammokria #LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #elections #elections24 #Politics #voting #Phase3 #rajkot",2024-05-07 06:25:30+00:00,0,0,1628362962691031040,,"Loksabha Election 2024: MP Ram Mokaria's health deteriorated, admitted to hospital
+https://t.co/CZIZIsS21q
+#LokSabha #rammokria #LokSabha #LokSabhaElections #LokSabhaElection2024 #gujarat #elections #elections24 #Politics #voting #Phase3 #rajkot",Neutral
