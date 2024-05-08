@@ -56,7 +56,7 @@ class Twitteruse:
         tweets_df['sentiment'] = tweets_df['toenglish'].apply(lambda x : classifier(x).sentiment())
         
         tweets_df.to_csv('tweetdata_checking.csv') 
-        return tweets_df
+        
     
     def get_influencers_retweets(self):
         tweets_df = pd.read_csv('tweetdata_checking.csv')
@@ -85,7 +85,7 @@ class Twitteruse:
         print(retweeted_tweets_df)
         retweeted_tweets_df.to_csv('Top_influencers_from_retweeted_tweets.csv', index=True) 
 
-        return retweeted_tweets_df
+         
     
     def get_influencers_likes(self):
         tweets_df = pd.read_csv('tweetdata_checking.csv',)
@@ -112,7 +112,7 @@ class Twitteruse:
         liked_tweets_df = liked_tweets_df.drop(columns =['tweet_ids','tweets text','created_at','retweet_count','userid','toenglish','sentiment','Unnamed: 0','user_mentions','like_count'])
 
         liked_tweets_df.to_csv('Top_influencers_from_liked_tweets.csv', index=True) 
-        return liked_tweets_df
+        
             
             
 
