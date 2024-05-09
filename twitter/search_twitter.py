@@ -1,31 +1,27 @@
 import tweepy
 from translate import google
 from sentiment import sentiment
-from conversion import extraction_username,unicode
-import re
-
-
-
-
+from conversion import extraction_username
+# import re
 
 ## Load the secret variables
 from dotenv import load_dotenv
 import os
 import pandas as pd
-import multiprocessing
 
-import deep_translator
+
+# import deep_translator
 from deep_translator import GoogleTranslator
 
 from transformers import pipeline
-import torch
+# import torch
 
 
-from memory_profiler import profile
+# from memory_profiler import profile
 
-log_file = open('memory.log','w+')
+# log_file = open('memory.log','w+')
 
-@profile(stream=log_file)
+# @profile(stream=log_file)
 class Twitteruse:
     def __init__(self):
         load_dotenv(override=True)
@@ -86,8 +82,8 @@ class Twitteruse:
         
 
         tweets_df['user_mentions'] = tweets_df['tweets text'].apply(extraction_username)
-        # tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
-        # tweets_df['sentiment'] = sentiment(tweets_df['tweets text'].to_list())
+        tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
+        tweets_df['sentiment'] = sentiment(tweets_df['toenglish'].to_list())
         
         tweets_df.to_csv('tweetdata_checking.csv') 
         # pool.close()

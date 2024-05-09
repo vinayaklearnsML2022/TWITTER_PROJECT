@@ -2,23 +2,23 @@
 # from translate import Translation
 # from sentiment import classifier
 # from conversion import Conversion
-import tweepy
-import re
+# import tweepy
+# import re
 from twitter import Twitteruse
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
 import pandas as pd
-import numpy as np
+# import numpy as np
 
-import requests
-from app import app
-import uvicorn
+# import requests
+# from app import app
+# import uvicorn
 
-from dataplotting import plotpie, plotlc
+# from dataplotting import plotpie, plotlc
 
-import re
-import logging
-logging.basicConfig(level=logging.INFO,filename="twitter_project.log",filemode='w',format="%(asctime)s - %(levelname)s - %(message)s")
+# import re
+# import logging
+# logging.basicConfig(level=logging.INFO,filename="twitter_project.log",filemode='w',format="%(asctime)s - %(levelname)s - %(message)s")
 
 import streamlit as st
 from streamlit_kpi import streamlit_kpi
@@ -66,8 +66,8 @@ if search_button or st.session_state.search_button:
 
     st.session_state.search_button=True
     
-    print(f"search_string = {search_string} ")
-    logging.info(f"\n\n Twitter API Got Initialized")
+    # print(f"search_string = {search_string} ")
+    # logging.info(f"\n\n Twitter API Got Initialized")
     
 
     if search_button:
@@ -75,7 +75,7 @@ if search_button or st.session_state.search_button:
         response = twitter_insta.get_tweets_count(search_string)
     
     tweet_count = pd.read_csv("tweetcount.csv",parse_dates=['date_only'])
-    logging.info(tweet_count)
+    # logging.info(tweet_count)
 
    
 
@@ -145,11 +145,11 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
 
                                             
 
-        # fig = px.pie(names=tweet_data['sentiment'].unique(),values=tweet_data['sentiment'].value_counts())
+        fig = px.pie(names=tweet_data['sentiment'].unique(),values=tweet_data['sentiment'].value_counts())
         col1,col2,col3 = st.columns((4,1,3))
         with col1:
             col1.subheader("Sentiment Analysis")
-            # col1.plotly_chart(fig,use_container_width=True)
+            col1.plotly_chart(fig,use_container_width=True)
             col1.empty()
 
         with col2:

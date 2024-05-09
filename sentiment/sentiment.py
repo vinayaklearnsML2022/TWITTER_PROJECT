@@ -1,6 +1,6 @@
 from transformers import pipeline
-import torch
-import re
+# import torch
+# import re
 
 
 
