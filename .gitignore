@@ -1,4 +1,4 @@
-.env
+# .env
 my_venv/
 *.csv
 read.txt
