@@ -141,6 +141,7 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
         with col1:
             col1.subheader("Sentiment Analysis")
             col1.plotly_chart(fig,use_container_width=True)
+            col1.empty()
 
         with col2:
             col2.empty()

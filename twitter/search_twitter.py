@@ -2,6 +2,7 @@ import tweepy
 from translate import google
 from sentiment import sentiment
 from conversion import extraction_username,unicode
+import re
 
 
 
@@ -10,6 +11,13 @@ from conversion import extraction_username,unicode
 from dotenv import load_dotenv
 import os
 import pandas as pd
+import multiprocessing
+
+import deep_translator
+from deep_translator import GoogleTranslator
+
+from transformers import pipeline
+import torch
 
 
 
@@ -47,16 +55,38 @@ class Twitteruse:
         self.min_date = min_date
         self.max_date = max_date
         self.tweet_count_slider = tweet_count_slider
+
+        # pool = multiprocessing.Pool()
+
         tweets_container= [[tweetread.id,tweetread.text,tweetread.created_at,tweetread.public_metrics['like_count'],tweetread.public_metrics['retweet_count'],tweetread['author_id']]for tweetread in tweepy.Paginator(self.client.search_recent_tweets, self.search_string,max_results=10,start_time=self.min_date,end_time=self.max_date,tweet_fields=['public_metrics','created_at'],expansions=['author_id']).flatten(limit=self.tweet_count_slider)]  
         columns=['tweet_ids', 'tweets text','created_at','like_count','retweet_count','userid']
         tweets_df = pd.DataFrame(tweets_container,columns=columns)
         # tweets_df['conv_tweets'] = tweets_df['tweets text'].apply(lambda x : Conversion(x).unicode())
         # logging.info(f"\n\n conv_tweets formed")
-        tweets_df['user_mentions'] = tweets_df['tweets text'].transform(extraction_username)
-        tweets_df['toenglish'] = tweets_df['tweets text'].transform(google)
-        tweets_df['sentiment'] = tweets_df['toenglish'].transform(sentiment)
+        # result = pool.map(extraction_username, tweets_df['tweets text'])
+        # tweets_df['user_mentions'] = pd.concat(result)
+
+        # result = pool.map(google, tweets_df['tweets text'])
+        # tweets_df['toenglish'] = pd.concat(result)
+
+        # result = pool.map(sentiment, tweets_df['toenglish'])
+        # tweets_df['sentiment'] = pd.concat(result)
+
+        # print(tweets_df['user_mentions'])
+
+        # classify = pipeline("sentiment-analysis",model="cardiffnlp/xlm-twitter-politics-sentiment")
+        # res = classify(text)
+        # return "".join(map(str, re.findall("'label': '(.*?)'",str(res))))
+
+        # tweets_df['tweets text'].apply(GoogleTranslator(source='auto').translate[:1000])
+        
+
+        tweets_df['user_mentions'] = tweets_df['tweets text'].apply(extraction_username)
+        tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
+        tweets_df['sentiment'] = sentiment(tweets_df['toenglish'].to_list())
         
         tweets_df.to_csv('tweetdata_checking.csv') 
+        # pool.close()
         
     
     def get_influencers_retweets(self):
@@ -80,7 +110,7 @@ class Twitteruse:
         retweeted_tweets_df['followers']=followers
         # retweeted_tweets_df['location']=location
         
-        retweeted_tweets_df = retweeted_tweets_df.drop(columns =['tweet_ids','tweets text','created_at','like_count','userid','toenglish','sentiment','Unnamed: 0','retweet_count'])
+        retweeted_tweets_df = retweeted_tweets_df.drop(columns =['tweet_ids','tweets text','created_at','like_count','userid','Unnamed: 0','retweet_count'])
      
 
         print(retweeted_tweets_df)
@@ -110,7 +140,7 @@ class Twitteruse:
         liked_tweets_df['username']=usernames
         liked_tweets_df['followers']=followers
         # liked_tweets_df['location']=location
-        liked_tweets_df = liked_tweets_df.drop(columns =['tweet_ids','tweets text','created_at','retweet_count','userid','toenglish','sentiment','Unnamed: 0','user_mentions','like_count'])
+        liked_tweets_df = liked_tweets_df.drop(columns =['tweet_ids','tweets text','created_at','retweet_count','userid','Unnamed: 0','user_mentions','like_count'])
 
         liked_tweets_df.to_csv('Top_influencers_from_liked_tweets.csv', index=True) 
         
