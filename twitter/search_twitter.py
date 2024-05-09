@@ -82,8 +82,8 @@ class Twitteruse:
         
 
         tweets_df['user_mentions'] = tweets_df['tweets text'].apply(extraction_username)
-        tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
-        tweets_df['sentiment'] = sentiment(tweets_df['toenglish'].to_list())
+        # tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
+        tweets_df['sentiment'] = sentiment(tweets_df['tweets text'].to_list())
         
         tweets_df.to_csv('tweetdata_checking.csv') 
         # pool.close()

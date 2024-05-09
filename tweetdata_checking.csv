@@ -1,192 +1,120 @@
-,tweet_ids,tweets text,created_at,like_count,retweet_count,userid,user_mentions,toenglish,sentiment
-0,1788356574647582991,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:53:28+00:00,0,703,2333423990,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-1,1788355785774510326,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:50:20+00:00,0,703,1280491974034767872,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-2,1788355705608733027,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:50:00+00:00,0,703,1657785857095368707,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-3,1788354971953737902,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:47:05+00:00,0,703,1677363528582451200,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-4,1788354434503979020,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:44:57+00:00,0,703,1477200268726919170,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-5,1788354411619852692,RT @gena_sarita: आज नई दिल्ली लोकसभा प्रत्याशी बाँसुरी स्वराज जी से कार्यालय पर शिष्टाचार भेंट की और अपने विधानसभा के संगठनात्मक संरचना की…,2024-05-08 23:44:52+00:00,0,8,582563073,gena_sarita,"RT @gena_sarita: Today, I paid a courtesy visit to New Delhi Lok Sabha candidate Bansuri Swaraj ji at her office and discussed about the organizational structure of my assembly.",Neutral
+,tweet_ids,tweets text,created_at,like_count,retweet_count,userid,user_mentions,sentiment
+0,1788356574647582991,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:53:28+00:00,0,714,2333423990,TigerRajaSinggh,Neutral
+1,1788355785774510326,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:50:20+00:00,0,714,1280491974034767872,TigerRajaSinggh,Neutral
+2,1788355705608733027,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:50:00+00:00,0,714,1657785857095368707,TigerRajaSinggh,Neutral
+3,1788354971953737902,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:47:05+00:00,0,714,1677363528582451200,TigerRajaSinggh,Neutral
+4,1788354434503979020,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:44:57+00:00,0,714,1477200268726919170,TigerRajaSinggh,Neutral
+5,1788354411619852692,RT @gena_sarita: आज नई दिल्ली लोकसभा प्रत्याशी बाँसुरी स्वराज जी से कार्यालय पर शिष्टाचार भेंट की और अपने विधानसभा के संगठनात्मक संरचना की…,2024-05-08 23:44:52+00:00,0,8,582563073,gena_sarita,Neutral
 6,1788353891706531976,"RT @MPLodha: नेपियन सी रोड येथील शिमला हाऊस सोसायटी येथे सोसायटी बैठकीत साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #Abk…",2024-05-08 23:42:48+00:00,0,184,1777300682066006016,MPLodha,"RT @MPLodha: Interaction held at society meeting at Shimla House Society, Nepean Sea Road...
- (May 7, 2024)
-
-@YaminiYJadhav
-#ModiKiGuarantee #Abk…",Neutral
+#ModiKiGuarantee #Abk…",2024-05-08 23:42:48+00:00,0,201,1777300682066006016,MPLodha,Neutral
 7,1788353859871731929,"RT @MPLodha: गिरगांव येथे आकाश दिप सोसायटीमध्ये साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:42:40+00:00,0,182,1777300682066006016,MPLodha,"RT @MPLodha: Interview with Aakash Dip Society at Girgaon.
- (7 May 2024)
-
-@YaminiYJadhav
-#ModiKiGuaranteed #AbkiBarre400Barre #LokSabha2",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:42:40+00:00,0,199,1777300682066006016,MPLodha,Neutral
 8,1788353808105648512,"RT @MPLodha: खेतवाडी येथे आयोजित सोसायटी बैठकीत साधलेला संवाद...
 (7 मे 2024) 
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:42:28+00:00,0,180,1777300682066006016,MPLodha,"RT @MPLodha: Society meeting held at Khetwadi.
-(7 May 2024)
-#ModiKiGuaranteed #AbkiBaar400Baar #LokSabha2024 #ViksitBharat.",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:42:28+00:00,0,197,1777300682066006016,MPLodha,Neutral
 9,1788352913158316377,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
 
-#LokSabhaElection2024 #terroristatt…",2024-05-08 23:38:55+00:00,0,257,1731057842046611456,iamarshadalii,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
-
-#LokSabhaElection2024 #terroristatt…",Negative
-10,1788352374295454159,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:36:46+00:00,0,703,3307398996,TigerRajaSinggh,"RT @TigerRajaSinggh: On reaching Telangana today, Honorable Prime Minister Narendra Modi first performed Puja-Path at Shri ""Rajeshwar Temple"" and then addressed the public meeting…",Neutral
+#LokSabhaElection2024 #terroristatt…",2024-05-08 23:38:55+00:00,0,258,1731057842046611456,iamarshadalii,Negative
+10,1788352374295454159,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:36:46+00:00,0,714,3307398996,TigerRajaSinggh,Neutral
 11,1788350941219197059,"RT @MPLodha: नेपियन सी रोड येथील शिमला हाऊस सोसायटी येथे सोसायटी बैठकीत साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #Abk…",2024-05-08 23:31:04+00:00,0,184,1788039292717293569,MPLodha,"RT @MPLodha: Interaction held at society meeting at Shimla House Society, Nepean Sea Road...
- (May 7, 2024)
-
-@YaminiYJadhav
-#ModiKiGuarantee #Abk…",Neutral
+#ModiKiGuarantee #Abk…",2024-05-08 23:31:04+00:00,0,201,1788039292717293569,MPLodha,Neutral
 12,1788350894364676209,"RT @MPLodha: गिरगांव येथे आकाश दिप सोसायटीमध्ये साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:30:53+00:00,0,182,1788039292717293569,MPLodha,"RT @MPLodha: Interview with Aakash Dip Society at Girgaon.
- (7 May 2024)
-
-@YaminiYJadhav
-#ModiKiGuaranteed #AbkiBarre400Barre #LokSabha2",Neutral
-13,1788350779427815647,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:30:26+00:00,0,703,879714936292691968,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:30:53+00:00,0,199,1788039292717293569,MPLodha,Neutral
+13,1788350779427815647,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:30:26+00:00,0,714,879714936292691968,TigerRajaSinggh,Neutral
 14,1788350415773597935,"RT @MPLodha: खेतवाडी येथे आयोजित सोसायटी बैठकीत साधलेला संवाद...
 (7 मे 2024) 
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:28:59+00:00,0,180,1788039292717293569,MPLodha,"RT @MPLodha: Society meeting held at Khetwadi.
-(7 May 2024)
-#ModiKiGuaranteed #AbkiBaar400Baar #LokSabha2024 #ViksitBharat.",Neutral
-15,1788349968094536178,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:27:12+00:00,0,703,1531277201693618177,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:28:59+00:00,0,197,1788039292717293569,MPLodha,Neutral
+15,1788349968094536178,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:27:12+00:00,0,714,1531277201693618177,TigerRajaSinggh,Neutral
 16,1788349538656309407,"RT @ChDadaPatil: आर्थिक विकासाला चालना देण्यासाठी आणि भारतातील तरुणांची स्वप्ने पूर्ण करण्यासाठी आम्ही काम केले आहे.
 
-मा. पंतप्रधान श्री.@n…",2024-05-08 23:25:30+00:00,0,207,1540302365454381056,ChDadaPatil,"RT @ChDadaPatil: We work to boost economic growth and fulfill the dreams of India's youth.
-
-Hon. Prime Minister Shri.@n…",Positive
+मा. पंतप्रधान श्री.@n…",2024-05-08 23:25:30+00:00,0,207,1540302365454381056,ChDadaPatil,Positive
 17,1788349520956518753,"RT @rameshofficial0: #हमारा_नायक_राष्ट्रनायक महाराणा प्रताप है ना की गांधी नेहरू, 
-आज रोहन गुप्ता जी ने शाही परिवार की पोल खोल के रख दी चम…",2024-05-08 23:25:26+00:00,0,10,1674335038035607553,rameshofficial0,"RT @rameshofficial0: #Our_hero_national leader is Maharana Pratap and not Gandhi Nehru,
-Today Rohan Gupta ji exposed the royal family and exposed it.",Negative
+आज रोहन गुप्ता जी ने शाही परिवार की पोल खोल के रख दी चम…",2024-05-08 23:25:26+00:00,0,10,1674335038035607553,rameshofficial0,Negative
 18,1788348891920060804,"RT @MPLodha: नेपियन सी रोड येथील शिमला हाऊस सोसायटी येथे सोसायटी बैठकीत साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #Abk…",2024-05-08 23:22:56+00:00,0,184,1685898296978464768,MPLodha,"RT @MPLodha: Interaction held at society meeting at Shimla House Society, Nepean Sea Road...
- (May 7, 2024)
-
-@YaminiYJadhav
-#ModiKiGuarantee #Abk…",Neutral
-19,1788348865524936861,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:22:50+00:00,0,703,113424877,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#ModiKiGuarantee #Abk…",2024-05-08 23:22:56+00:00,0,201,1685898296978464768,MPLodha,Neutral
+19,1788348865524936861,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:22:50+00:00,0,714,113424877,TigerRajaSinggh,Neutral
 20,1788348863985979766,"RT @MPLodha: गिरगांव येथे आकाश दिप सोसायटीमध्ये साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:22:49+00:00,0,182,1685898296978464768,MPLodha,"RT @MPLodha: Interview with Aakash Dip Society at Girgaon.
- (7 May 2024)
-
-@YaminiYJadhav
-#ModiKiGuaranteed #AbkiBarre400Barre #LokSabha2",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:22:49+00:00,0,199,1685898296978464768,MPLodha,Neutral
 21,1788348811687116846,"RT @MPLodha: खेतवाडी येथे आयोजित सोसायटी बैठकीत साधलेला संवाद...
 (7 मे 2024) 
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:22:37+00:00,0,180,1685898296978464768,MPLodha,"RT @MPLodha: Society meeting held at Khetwadi.
-(7 May 2024)
-#ModiKiGuaranteed #AbkiBaar400Baar #LokSabha2024 #ViksitBharat.",Neutral
-22,1788348360438829187,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:20:49+00:00,0,703,1587283996802572288,TigerRajaSinggh,"RT @TigerRajaSinggh: On reaching Telangana today, Honorable Prime Minister Narendra Modi first performed Puja-Path at Shri ""Rajeshwar Temple"" and then addressed the public meeting…",Neutral
-23,1788347361229705281,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:16:51+00:00,0,703,3109251758,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:22:37+00:00,0,197,1685898296978464768,MPLodha,Neutral
+22,1788348360438829187,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:20:49+00:00,0,714,1587283996802572288,TigerRajaSinggh,Neutral
+23,1788347361229705281,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:16:51+00:00,0,714,3109251758,TigerRajaSinggh,Neutral
 24,1788347147676701023,"RT @MPLodha: नेपियन सी रोड येथील शिमला हाऊस सोसायटी येथे सोसायटी बैठकीत साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #Abk…",2024-05-08 23:16:00+00:00,0,184,1591655340155641856,MPLodha,"RT @MPLodha: Interaction held at society meeting at Shimla House Society, Nepean Sea Road...
- (May 7, 2024)
-
-@YaminiYJadhav
-#ModiKiGuarantee #Abk…",Neutral
+#ModiKiGuarantee #Abk…",2024-05-08 23:16:00+00:00,0,201,1591655340155641856,MPLodha,Neutral
 25,1788347119281336785,"RT @MPLodha: गिरगांव येथे आकाश दिप सोसायटीमध्ये साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:15:53+00:00,0,182,1591655340155641856,MPLodha,"RT @MPLodha: Interview with Aakash Dip Society at Girgaon.
- (7 May 2024)
-
-@YaminiYJadhav
-#ModiKiGuaranteed #AbkiBarre400Barre #LokSabha2",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:15:53+00:00,0,199,1591655340155641856,MPLodha,Neutral
 26,1788347069226443033,"RT @MPLodha: खेतवाडी येथे आयोजित सोसायटी बैठकीत साधलेला संवाद...
 (7 मे 2024) 
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:15:41+00:00,0,180,1591655340155641856,MPLodha,"RT @MPLodha: Society meeting held at Khetwadi.
-(7 May 2024)
-#ModiKiGuaranteed #AbkiBaar400Baar #LokSabha2024 #ViksitBharat.",Neutral
-27,1788347031003726258,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:15:32+00:00,0,703,863702444492165120,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-28,1788345409741697402,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:09:06+00:00,0,703,1399181774,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:15:41+00:00,0,197,1591655340155641856,MPLodha,Neutral
+27,1788347031003726258,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:15:32+00:00,0,714,863702444492165120,TigerRajaSinggh,Neutral
+28,1788345409741697402,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 23:09:06+00:00,0,714,1399181774,TigerRajaSinggh,Neutral
 29,1788344205972328497,"RT @MPLodha: खेतवाडी येथे आयोजित सोसायटी बैठकीत साधलेला संवाद...
 (7 मे 2024) 
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:04:19+00:00,0,180,1633870312008986624,MPLodha,"RT @MPLodha: Society meeting held at Khetwadi.
-(7 May 2024)
-#ModiKiGuaranteed #AbkiBaar400Baar #LokSabha2024 #ViksitBharat.",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha2024 #ViksitBharat…",2024-05-08 23:04:19+00:00,0,197,1633870312008986624,MPLodha,Neutral
 30,1788344154122281381,"RT @MPLodha: गिरगांव येथे आकाश दिप सोसायटीमध्ये साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:04:06+00:00,0,182,1633870312008986624,MPLodha,"RT @MPLodha: Interview with Aakash Dip Society at Girgaon.
- (7 May 2024)
-
-@YaminiYJadhav
-#ModiKiGuaranteed #AbkiBarre400Barre #LokSabha2",Neutral
+#ModiKiGuarantee #AbkiBaar400Baar #LokSabha20…",2024-05-08 23:04:06+00:00,0,199,1633870312008986624,MPLodha,Neutral
 31,1788344122920886766,"RT @MPLodha: नेपियन सी रोड येथील शिमला हाऊस सोसायटी येथे सोसायटी बैठकीत साधलेला संवाद...
  (7 मे 2024)
 
 @YaminiYJadhav
-#ModiKiGuarantee #Abk…",2024-05-08 23:03:59+00:00,0,184,1633870312008986624,MPLodha,"RT @MPLodha: Interaction held at society meeting at Shimla House Society, Nepean Sea Road...
- (May 7, 2024)
-
-@YaminiYJadhav
-#ModiKiGuarantee #Abk…",Neutral
+#ModiKiGuarantee #Abk…",2024-05-08 23:03:59+00:00,0,201,1633870312008986624,MPLodha,Neutral
 32,1788343637287293192,"RT @shivprakashbjp: योग गुरु बाबा रामदेव जी का आह्वान...
 
-'सनातन धर्म को बचाना है तो सबको वोटिंग करनी चाहिए और राष्ट्रवादी ताकतों को सपोर्ट…",2024-05-08 23:02:03+00:00,0,30,1536944052,shivprakashbjp,"RT @shivprakashbjp: Yoga Guru Baba Ramdev ji's call...
-
-'If Sanatan Dharma is to be saved then everyone should vote and support nationalist forces...",Positive
-33,1788342454166446576,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:57:21+00:00,0,703,1120935942,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-34,1788341764841222543,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:54:37+00:00,0,703,1045878116562784256,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+'सनातन धर्म को बचाना है तो सबको वोटिंग करनी चाहिए और राष्ट्रवादी ताकतों को सपोर्ट…",2024-05-08 23:02:03+00:00,0,30,1536944052,shivprakashbjp,Positive
+33,1788342454166446576,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:57:21+00:00,0,714,1120935942,TigerRajaSinggh,Neutral
+34,1788341764841222543,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:54:37+00:00,0,714,1045878116562784256,TigerRajaSinggh,Neutral
 35,1788341605948367138,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
 
-#LokSabhaElection2024 #terroristatt…",2024-05-08 22:53:59+00:00,0,257,1547563631193116674,iamarshadalii,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
-
-#LokSabhaElection2024 #terroristatt…",Negative
-36,1788339719736287401,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:46:29+00:00,0,703,1612678037870608384,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+#LokSabhaElection2024 #terroristatt…",2024-05-08 22:53:59+00:00,0,258,1547563631193116674,iamarshadalii,Negative
+36,1788339719736287401,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:46:29+00:00,0,714,1612678037870608384,TigerRajaSinggh,Neutral
 37,1788339633945756127,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
 #MurderOfIndianDemocracy
-वीडियो के मुताबिक…",2024-05-08 22:46:09+00:00,0,274,1519491097356996609,Voice_OfMuslim,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
-#MurderOfIndianDemocracy
-वीडियो के मुताबिक…",Negative
+वीडियो के मुताबिक…",2024-05-08 22:46:09+00:00,0,275,1519491097356996609,Voice_OfMuslim,Negative
 38,1788337900553478402,"When the dictator's chair is in danger he plays politics of religious polarization.
 
-#LokSabhaElection2024 #terroristattack #neet_paper_leak #KanganaRanaut #BengaluruRains #AbkiBaar400Baar ❌️ https://t.co/gPoPkNicfb",2024-05-08 22:39:15+00:00,3,1,1579628816875388929,,"When the dictator's chair is in danger he plays politics of religious polarization.
-
-#LokSabhaElection2024 #terroristattack #neet_paper_leak #KanganaRanaut #BengaluruRains #AbkiBaar400Baar ❌️ https://t.co/gPoPkNicfb",Negative
+#LokSabhaElection2024 #terroristattack #neet_paper_leak #KanganaRanaut #BengaluruRains #AbkiBaar400Baar ❌️ https://t.co/gPoPkNicfb",2024-05-08 22:39:15+00:00,3,1,1579628816875388929,,Negative
 39,1788336767856173400,"RT @vshnuuu: fhool kheelega 🪷
 #AbkiBaar400Baar 
 
- https://t.co/JHFJHlYbRk",2024-05-08 22:34:45+00:00,0,20,1245352357266948096,vshnuuu,"RT @vshnuuu: fhool kheelega 🪷
-#AbkiBaar400Baar 
-
-https://t.co/JHFJHlYbRk",Positive
+ https://t.co/JHFJHlYbRk",2024-05-08 22:34:45+00:00,0,20,1245352357266948096,vshnuuu,Positive
 40,1788336748520710565,"RT @smitabarooah: Mani: Locked up
 Sam Pitroda: Fired
-Now we need Rahul Gandhi to come &amp; bat for #AbkiBaar400Baar",2024-05-08 22:34:41+00:00,0,38,3145285626,smitabarooah,"RT @smitabarooah: Mani: Locked up
-Sam Pitroda: Fired
-Now we need Rahul Gandhi to come &amp; bat for #AbkiBaar400Baar",Negative
+Now we need Rahul Gandhi to come &amp; bat for #AbkiBaar400Baar",2024-05-08 22:34:41+00:00,0,38,3145285626,smitabarooah,Negative
 41,1788335583896764814,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
 #MurderOfIndianDemocracy
-वीडियो के मुताबिक…",2024-05-08 22:30:03+00:00,0,274,4446905363,Voice_OfMuslim,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
-#MurderOfIndianDemocracy
-वीडियो के मुताबिक…",Negative
-42,1788332857590448487,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:19:13+00:00,0,703,1604101084011589634,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
+वीडियो के मुताबिक…",2024-05-08 22:30:03+00:00,0,275,4446905363,Voice_OfMuslim,Negative
+42,1788332857590448487,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 22:19:13+00:00,0,714,1604101084011589634,TigerRajaSinggh,Neutral
 43,1788332008525242685,"RT @shivprakashbjp: योग गुरु बाबा रामदेव जी का आह्वान...
 
-'सनातन धर्म को बचाना है तो सबको वोटिंग करनी चाहिए और राष्ट्रवादी ताकतों को सपोर्ट…",2024-05-08 22:15:51+00:00,0,30,1641842785941876736,shivprakashbjp,"RT @shivprakashbjp: Yoga Guru Baba Ramdev Ji's appeal...
-
-'If Sanatan Dharma is to be saved then everyone should vote and support nationalist forces...",Positive
+'सनातन धर्म को बचाना है तो सबको वोटिंग करनी चाहिए और राष्ट्रवादी ताकतों को सपोर्ट…",2024-05-08 22:15:51+00:00,0,30,1641842785941876736,shivprakashbjp,Positive
 44,1788331943706169791,"RT @madhu721: Mr Sam pitroda  we are not africans
 Not arabs
 Not chiness
@@ -196,7 +124,19 @@ We are Indians
 We are Modi ki parivar
 We are
 
- #Pro…",2024-05-08 22:15:35+00:00,0,1,194036768,madhu721,"RT @madhu721: Mr Sam pitroda  we are not africans
+ #Pro…",2024-05-08 22:15:35+00:00,0,1,194036768,madhu721,Positive
+45,1788331210181419305,"RT @RattiramDass77: #Ambani Kolkata Police
+#आँखों_देखा_भगवान_को #lockdown
+#LokSabhaElection2024 #ICSE
+#neet_paper_leak UncleSam
+#abkibaar40…",2024-05-08 22:12:40+00:00,0,5,1754246560571908096,RattiramDass77,Negative
+46,1788328693640962218,RT @pravin_news: #LokasabhaElection2024 #PalgharLoksabha #DrHemantSavra #BJP #Mahayuti #vasai #Virar #Nallasopara #AbkiBaar400Baar https://…,2024-05-08 22:02:40+00:00,0,2,1725811866570465280,pravin_news,Neutral
+47,1788328283240899053,#AbkiBaar400Baar #AppleEvent #ICJ #InternationalCourtofJustice #NeverAgain #Congo #GreenParty #Pulitzer #SuryaKumarYadav #RohitSharma #MetGala #AllEyesOnRafah #TheGame #Portable #Superman #AllahuAkbar #सुप्रीमकोर्ट #ThugLife #coolestpm #iPad #Daddy #OLED #TrumpTrial #Apple #Arab https://t.co/ID5qcKmcu5,2024-05-08 22:01:02+00:00,0,0,785499919,,Positive
+48,1788326676650500582,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:54:39+00:00,0,714,1722648312602632193,TigerRajaSinggh,Neutral
+49,1788326071278215599,"RT @BJP4UP: मुख्यमंत्री श्री @myogiadityanath लोकसभा क्षेत्र सीतापुर में विशाल जनसभा को संबोधित करते हुए
+
+#AbkiBaar400Baar #PhirEkBaarModiS…",2024-05-08 21:52:15+00:00,0,75,1641842785941876736,BJP4UP,Neutral
+50,1788325904105472363,"Mr Sam pitroda  we are not africans
 Not arabs
 Not chiness
 Not any at all
@@ -205,21 +145,110 @@ We are Indians
 We are Modi ki parivar
 We are
 
- #Pro…",Positive
-45,1788331210181419305,"RT @RattiramDass77: #Ambani Kolkata Police
-#आँखों_देखा_भगवान_को #lockdown
-#LokSabhaElection2024 #ICSE
-#neet_paper_leak UncleSam
-#abkibaar40…",2024-05-08 22:12:40+00:00,0,5,1754246560571908096,RattiramDass77,"RT @RattiramDass77: #Ambani Kolkata Police
-#eyes_dekha_bhagwan_ko #lockdown
-#LokSabhaElection2024 #ICSE
-#neet_paper_leak UncleSam
-#abkibaar40…",Negative
-46,1788328693640962218,RT @pravin_news: #LokasabhaElection2024 #PalgharLoksabha #DrHemantSavra #BJP #Mahayuti #vasai #Virar #Nallasopara #AbkiBaar400Baar https://…,2024-05-08 22:02:40+00:00,0,2,1725811866570465280,pravin_news,RT @pravin_news: #LokasabhaElection2024 #PalgharLoksabha #DrHemantSavra #BJP #Mahayuti #vasai #Virar #Nallasopara #AbkiBaar400Baar https://…,Neutral
-47,1788328283240899053,#AbkiBaar400Baar #AppleEvent #ICJ #InternationalCourtofJustice #NeverAgain #Congo #GreenParty #Pulitzer #SuryaKumarYadav #RohitSharma #MetGala #AllEyesOnRafah #TheGame #Portable #Superman #AllahuAkbar #सुप्रीमकोर्ट #ThugLife #coolestpm #iPad #Daddy #OLED #TrumpTrial #Apple #Arab https://t.co/ID5qcKmcu5,2024-05-08 22:01:02+00:00,0,0,785499919,,#AbkiBaar400Baar #AppleEvent #ICJ #InternationalCourtofJustice #NeverAgain #Congo #GreenParty #Pulitzer #SuryaKumarYadav #RohitSharma #MetGala #AllEyesOnRafah #TheGame #Portable #Superman #AllahuAkbar #सुप्रीमकोर्ट #ThugLife #coolestpm #iPad #Daddy #OLED #TrumpTrial #Apple #Arab https://t.co/ID5qcKmcu5,Positive
-48,1788326676650500582,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:54:39+00:00,0,703,1722648312602632193,TigerRajaSinggh,"RT @TigerRajaSinggh: As soon as he reached Telangana today, respected Prime Minister Narendra Modi first performed puja at Shri “Rajeshwar Temple” and then held a public meeting…",Neutral
-49,1788326071278215599,"RT @BJP4UP: मुख्यमंत्री श्री @myogiadityanath लोकसभा क्षेत्र सीतापुर में विशाल जनसभा को संबोधित करते हुए
+ #ProudBharatiya 
 
-#AbkiBaar400Baar #PhirEkBaarModiS…",2024-05-08 21:52:15+00:00,0,75,1641842785941876736,BJP4UP,"RT @BJP4UP: Chief Minister Shri @myogiadityanath addressing a huge public meeting in Lok Sabha constituency Sitapur.
+#AbkiBaar400Baar 
+#AbkiBaar400Paar 
+#AbkiBaarModiSarkaar 
+#SamPitroda 
+#ModiKiGaurantee 
+#NarendraModi https://t.co/Eb6H1p9mze",2024-05-08 21:51:35+00:00,2,1,194036768,,Positive
+51,1788325527075398117,"RT @smitabarooah: Mani: Locked up
+Sam Pitroda: Fired
+Now we need Rahul Gandhi to come &amp; bat for #AbkiBaar400Baar",2024-05-08 21:50:05+00:00,0,38,18932757,smitabarooah,Negative
+52,1788325277719777342,@ArunSFan @MrSinha_ @narendramodi @DrSJaishankar It will be 400 paar. RaGa will never become the PM of Bharat. Congress will never come back to power until I am breathing take that as challenge sir. #AbkiBaar400Baar,2024-05-08 21:49:06+00:00,0,0,1001458747686858753,,Negative
+53,1788324847258423731,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:47:23+00:00,0,714,1704593765896503296,TigerRajaSinggh,Neutral
+54,1788324792547865069,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
 
-#AbkiBaar400Baar #PhirEkBaarModiS…",Neutral
+#LokSabhaElection2024 #terroristatt…",2024-05-08 21:47:10+00:00,0,258,1371447914313129992,iamarshadalii,Negative
+55,1788322770092196290,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
+#MurderOfIndianDemocracy
+वीडियो के मुताबिक…",2024-05-08 21:39:08+00:00,0,275,303945090,Voice_OfMuslim,Negative
+56,1788322016098980038,"Bachche bache ki pukar ab ki baar 400paar
+#Maihumodikapariwar #AbkiBaar400Paar #AbkiBaar400Baar #Modi  #Trending #viralvideo #media #NarendraModi #BJP4UP #Elections2024 #400Paar https://t.co/JVX5CqiqBU",2024-05-08 21:36:08+00:00,0,0,489715615,,Negative
+57,1788320575003197499,Even the IMF appreciated India's GDP growth but the opposition can't digest . #PMmodi #AbkiBaar400Paar #AbkiBaar400Baar https://t.co/i6SlvJ0vfB,2024-05-08 21:30:25+00:00,0,0,1449231830914195458,,Negative
+58,1788318978667921861,"How many of you remember this video?
+After seeing rockstar welcome of Modi ji Australian PM said
+""@narendramodi is the Boss of the world""
+Proud moment🇮🇳👌💪
+
+#ModiJarooriHai #Vote4ModiKiGuarantee  #ModiOnceMore2024 #Modi #AbkiBaar400Baar #Modi4ViksitBharat https://t.co/gMmrd1zwtY",2024-05-08 21:24:04+00:00,0,0,1496901907897458690,,Positive
+59,1788318774468219193,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:23:15+00:00,0,714,947992966731141121,TigerRajaSinggh,Neutral
+60,1788318507702128673,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:22:12+00:00,0,714,1271335062567399425,TigerRajaSinggh,Neutral
+61,1788317937394155940,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 21:19:56+00:00,0,258,298921724,iamarshadalii,Negative
+62,1788315112086151356,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 21:08:42+00:00,0,258,1591386889952509952,iamarshadalii,Negative
+63,1788314814143500461,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
+#MurderOfIndianDemocracy
+वीडियो के मुताबिक…",2024-05-08 21:07:31+00:00,0,275,855789900372865024,Voice_OfMuslim,Negative
+64,1788314479744237644,"RT @glaring_glow: हिंदू विरायत को क़ायम रखने के लिए, हम मोदी को लाएँगे
+#AbkiBaar400Baar https://t.co/wUQhvUuMmj",2024-05-08 21:06:11+00:00,0,291,1670549438887231489,glaring_glow,Positive
+65,1788314466041602088,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 21:06:08+00:00,0,258,1711584661661712384,iamarshadalii,Negative
+66,1788314426396881325,"RT @KSJINTIKAR: Story of politics in 5 seconds 
+
+#AbkiBaar400Baar 
+
+ https://t.co/YvqkKiA8d1",2024-05-08 21:05:59+00:00,0,16,1670549438887231489,KSJINTIKAR,Neutral
+67,1788314386496442649,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:05:49+00:00,0,714,1670549438887231489,TigerRajaSinggh,Neutral
+68,1788313399098519810,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 21:01:54+00:00,0,714,929605977338298368,TigerRajaSinggh,Neutral
+69,1788313173185241222,RT @SidharthNSingh: Entire Vijaywada welcomed Hon'ble Prime Minister Shri @narendramodi Ji with open hands. A sea of love was visible. Shri…,2024-05-08 21:01:00+00:00,0,6,1478441918019244039,SidharthNSingh,Positive
+70,1788311748329840837,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 20:55:20+00:00,0,258,1233101695456043010,iamarshadalii,Negative
+71,1788310835883831347,RT @JThakers: #AbkiBaar400Baar for Coolest PM https://t.co/cXws5YBrA9,2024-05-08 20:51:43+00:00,0,363,1728052730378502144,JThakers,Positive
+72,1788310805680713778,"RT @DrBarkhaGolchha: Real Business... Learn Guys 😜🤪
+
+#Rafah #NEET_PAPER_LEAK #CricketTwitter    #NarendraModi #Ambani #LokSabhaElection2024…",2024-05-08 20:51:35+00:00,0,2,1306201802925207552,DrBarkhaGolchha,Positive
+73,1788310109300593128,RT @baramundihunter: 108 followers needed for #AbkiBaar400Baar 😃 https://t.co/nHYObC5Wcp,2024-05-08 20:48:49+00:00,0,1,37628649,baramundihunter,Positive
+74,1788308945838416325,RT @JThakers: #AbkiBaar400Baar for Coolest PM https://t.co/cXws5YBrA9,2024-05-08 20:44:12+00:00,0,363,1514509830118989825,JThakers,Positive
+75,1788308881581432970,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
+#MurderOfIndianDemocracy
+वीडियो के मुताबिक…",2024-05-08 20:43:57+00:00,0,275,1178236897249808389,Voice_OfMuslim,Negative
+76,1788308866662637641,RT @JThakers: Me after voting Coolest PM for  #AbkiBaar400Baar 😂😂😂 https://t.co/YLqLlKhSpv,2024-05-08 20:43:53+00:00,0,390,1514509830118989825,JThakers,Positive
+77,1788308346870833553,RT @mlakanupatel: સાણંદ શહેર ખાતે વિવિધ વ્યાપારી મંડળ સાથે બેઠક યોજી 7 તારીખે વહેલી સવારે મતદાન કરી શ્રી અમિતભાઈ શાહ સાહેબ ને જંગી બહુમતી…,2024-05-08 20:41:49+00:00,0,11,1726849207309651968,mlakanupatel,Neutral
+78,1788307378225782959,RT @iamarshadalii: Be careful now else your generation will remember how you allowed the government to continue which ruined everything inc…,2024-05-08 20:37:58+00:00,0,206,1554398114844332034,iamarshadalii,Negative
+79,1788307132334710953,"RT @Voice_OfMuslim: According to the video, army officers were conducting fake voting for BJP.
+#MurderOfIndianDemocracy
+वीडियो के मुताबिक…",2024-05-08 20:37:00+00:00,0,275,1774085920469237761,Voice_OfMuslim,Negative
+80,1788306574836167078,"Mood of the nation 
+#AbkiBaar400Baar #PhirEkBaarModiSarkar #Modi4ViksitBharat #ModiKiGuarantee #ModiKoLayenge #Modi4ViksitAP #NaMoAgain2024 #ModiOnceMore2024 https://t.co/BimPJtAdKw",2024-05-08 20:34:47+00:00,0,0,1496901907897458690,,Positive
+81,1788306367973138884,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 20:33:57+00:00,0,258,1785926804013711360,iamarshadalii,Negative
+82,1788306367507468729,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:33:57+00:00,0,714,1759270587111743488,TigerRajaSinggh,Neutral
+83,1788306021368438837,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:32:35+00:00,0,714,3869032872,TigerRajaSinggh,Neutral
+84,1788305330536907146,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:29:50+00:00,0,714,87874920,TigerRajaSinggh,Neutral
+85,1788303687691247913,"First PM to visit Vemulawada Raja Rajeshwara Swamy Temple 🙏
+
+#AbkiBaar400Baar #Modi4ViksitBharat #ModiOnceMore2024 #ModiJarooriHai #ModiKiGuarantee https://t.co/8Z7DqtRXgP",2024-05-08 20:23:18+00:00,0,0,1496901907897458690,,Positive
+86,1788303629000352037,"RT @vikram_rajaB: ""मेरा समर्थन उसे जो राम कृष्ण की, सनातन संस्कृति की बात करे.""
+- देवकीनंदन ठाकुर जी
+
+#AbkiBaar400Baar https://t.co/35Q6Kbd…",2024-05-08 20:23:04+00:00,0,157,1594638171752783873,vikram_rajaB,Positive
+87,1788303569172459889,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 20:22:50+00:00,0,258,1706070909650669568,iamarshadalii,Negative
+88,1788303393733451801,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:22:08+00:00,0,714,156561321,TigerRajaSinggh,Neutral
+89,1788303117710241941,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:21:02+00:00,0,714,2610753766,TigerRajaSinggh,Neutral
+90,1788302715598049633,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:19:27+00:00,0,714,1782370045848412160,TigerRajaSinggh,Neutral
+91,1788302513172832457,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:18:38+00:00,0,714,837035727871434753,TigerRajaSinggh,Neutral
+92,1788302006815240391,"RT @iamarshadalii: When the dictator's chair is in danger he plays politics of religious polarization.
+
+#LokSabhaElection2024 #terroristatt…",2024-05-08 20:16:38+00:00,0,258,1087033671419289600,iamarshadalii,Negative
+93,1788301891710898288,"RT @Prakash12Joshi: बुडोजर बाबा की UP पुलिस ने कुछ ज्यादा ही खातिरदारी कर दी है नल्ला की .. 😂😂
+सुधर जाओ अभी भी मौका है 😡 #ModiOnceMore2024…",2024-05-08 20:16:10+00:00,0,51,1658891228522635264,Prakash12Joshi,Negative
+94,1788301642783400049,"RT @Prakash12Joshi: बुडोजर बाबा की UP पुलिस ने कुछ ज्यादा ही खातिरदारी कर दी है नल्ला की .. 😂😂
+सुधर जाओ अभी भी मौका है 😡 #ModiOnceMore2024…",2024-05-08 20:15:11+00:00,0,51,1594638171752783873,Prakash12Joshi,Negative
+95,1788301587959750869,"RT @DhirendraChaud5: राष्ट्र निर्माण के सेतु में नल नील बनना होगा, 
+भारत माता के चरणों में कमल 🪷 का पुष्प अर्पण करना होगा , 
+राष्ट्रहित में…",2024-05-08 20:14:58+00:00,0,20,900624912393490432,DhirendraChaud5,Positive
+96,1788301467192819960,"RT @DhruvRatheeIN: Thank you sir for supporting me 🙏. Akhri dam Tak ladenge ✊. Jay Hind 🇮🇳
+#AbkiBaar400Baar https://t.co/UEWr86iQNX",2024-05-08 20:14:29+00:00,0,1698,2920919354,DhruvRatheeIN,Positive
+97,1788301285592076507,#AbkiBaar400Baar #AppleEvent #ICJ #InternationalCourtofJustice #NeverAgain #Congo #GreenParty #Pulitzer #SuryaKumarYadav #RohitSharma #MetGala #AllEyesOnRafah #TheGame #Portable #Superman #AllahuAkbar #सुप्रीमकोर्ट #ThugLife #coolestpm #iPad #Daddy #OLED #TrumpTrial #Apple #Arab https://t.co/7l4ggKtdN9,2024-05-08 20:13:46+00:00,0,0,785499919,,Positive
+98,1788300576612393280,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:10:57+00:00,0,714,1882556502,TigerRajaSinggh,Neutral
+99,1788300543745728929,RT @TigerRajaSinggh: आज तेलंगना पहुंचते ही श्री “राजेश्वर मंदिर” में आदरणीय पंतप्रधान नरेंद्र मोदी जी ने पहलें पुजा-पाठ किया और फिर जनसभा…,2024-05-08 20:10:49+00:00,0,714,1343166442846343168,TigerRajaSinggh,Neutral
