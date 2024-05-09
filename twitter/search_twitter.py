@@ -49,16 +49,15 @@ class Twitteruse:
         tweetstweets_count_df.to_csv('tweetcount.csv', index=True)
         return True
     
-    def get_tweets(self,search_string,min_date,max_date,tweet_count_slider):
-        self.search_string = search_string
- 
+    def get_tweets(self,search_string1,min_date,max_date,tweet_count_slider):
+        self.search_string1 = search_string1
         self.min_date = min_date
         self.max_date = max_date
         self.tweet_count_slider = tweet_count_slider
 
         # pool = multiprocessing.Pool()
 
-        tweets_container= [[tweetread.id,tweetread.text,tweetread.created_at,tweetread.public_metrics['like_count'],tweetread.public_metrics['retweet_count'],tweetread['author_id']]for tweetread in tweepy.Paginator(self.client.search_recent_tweets, self.search_string,max_results=10,start_time=self.min_date,end_time=self.max_date,tweet_fields=['public_metrics','created_at'],expansions=['author_id']).flatten(limit=self.tweet_count_slider)]  
+        tweets_container= [[tweetread.id,tweetread.text,tweetread.created_at,tweetread.public_metrics['like_count'],tweetread.public_metrics['retweet_count'],tweetread['author_id']]for tweetread in tweepy.Paginator(self.client.search_recent_tweets, self.search_string1,max_results=10,start_time=self.min_date,end_time=self.max_date,tweet_fields=['public_metrics','created_at'],expansions=['author_id']).flatten(limit=self.tweet_count_slider)]  
         columns=['tweet_ids', 'tweets text','created_at','like_count','retweet_count','userid']
         tweets_df = pd.DataFrame(tweets_container,columns=columns)
         # tweets_df['conv_tweets'] = tweets_df['tweets text'].apply(lambda x : Conversion(x).unicode())

@@ -26,6 +26,7 @@ import time
 import plotly.express as px
 
 import datetime
+from datetime import date
 
 if 'twitter_insta' not in st.session_state:
     st.session_state.twitter_insta = False
@@ -40,6 +41,12 @@ if 'Analyze_tweets' not in st.session_state:
 
 if 'tweet_count_slider' not in st.session_state:
         st.session_state.tweet_count_slider = 10
+
+if 'tweet_count_mindate' not in st.session_state:
+        st.session_state.tweet_count_mindate = str(date.today()-datetime.timedelta(days=6))+"T00:00:00.000Z"
+
+if 'tweet_count_maxdate' not in st.session_state:
+        st.session_state.tweet_count_maxdate = str(date.today())+"T00:00:00.000Z"
 
 
 
@@ -88,9 +95,11 @@ if search_button or st.session_state.search_button:
 
     
     st.session_state.tweet_count_slider = tweet_count_slider
+    st.session_state.tweet_count_maxdate = str(max_date)+"T00:00:00.000Z"
+    st.session_state.tweet_count_mindate = str(min_date)+"T00:00:00.000Z"
     
-    print(min_date)
-    print(max_date)
+    print(st.session_state.tweet_count_mindate )
+    print(st.session_state.tweet_count_maxdate)
     print(st.session_state.tweet_count_slider)
 
 
@@ -112,10 +121,10 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
         my_bar = st.progress(0, text=progress_text)
 
         for percent_complete in range(100):
-            time.sleep(0.1)
+            # time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
 
-        twitter_insta.get_tweets(search_string,str(min_date)+"T00:00:00.000Z",str(max_date)+"T00:00:00.000Z",st.session_state.tweet_count_slider)
+        twitter_insta.get_tweets(search_string,st.session_state.tweet_count_mindate,st.session_state.tweet_count_maxdate,st.session_state.tweet_count_slider)
         my_bar.progress(percent_complete + 1, text="Sentiment Analysis Results are ready")
     
    
