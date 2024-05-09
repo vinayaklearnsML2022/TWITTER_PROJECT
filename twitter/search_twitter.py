@@ -7,6 +7,7 @@ import re
 
 
 
+
 ## Load the secret variables
 from dotenv import load_dotenv
 import os
@@ -20,8 +21,11 @@ from transformers import pipeline
 import torch
 
 
+from memory_profiler import profile
 
-   
+log_file = open('memory.log','w+')
+
+@profile(stream=log_file)
 class Twitteruse:
     def __init__(self):
         load_dotenv(override=True)
@@ -48,6 +52,7 @@ class Twitteruse:
         tweetstweets_count_df['date_only'] = [tweets[:10] for tweets in tweetstweets_count_df['date']]
         tweetstweets_count_df.to_csv('tweetcount.csv', index=True)
         return True
+    
     
     def get_tweets(self,search_string1,min_date,max_date,tweet_count_slider):
         self.search_string1 = search_string1
@@ -82,7 +87,7 @@ class Twitteruse:
 
         tweets_df['user_mentions'] = tweets_df['tweets text'].apply(extraction_username)
         # tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
-        tweets_df['sentiment'] = sentiment(tweets_df['tweets text'].to_list())
+        # tweets_df['sentiment'] = sentiment(tweets_df['tweets text'].to_list())
         
         tweets_df.to_csv('tweetdata_checking.csv') 
         # pool.close()

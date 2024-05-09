@@ -28,11 +28,10 @@ import plotly.express as px
 import datetime
 from datetime import date
 
+
 if 'twitter_insta' not in st.session_state:
     st.session_state.twitter_insta = False
     
-
-
 if 'search_button' not in st.session_state:
     st.session_state.search_button = False
 
@@ -55,6 +54,7 @@ st.subheader("Please Enter your search string or #")
 search_string = st.text_input(" ")
 search_button = st.button("Search")
 
+twitter_insta = Twitteruse()
 
     
 
@@ -65,10 +65,10 @@ if search_button or st.session_state.search_button:
     # st.session_state.twitter_insta = twitter_insta
 
     st.session_state.search_button=True
-    onesearch=True
+    
     print(f"search_string = {search_string} ")
     logging.info(f"\n\n Twitter API Got Initialized")
-    twitter_insta = Twitteruse()
+    
 
     if search_button:
         search_button = False
@@ -111,7 +111,7 @@ Analyze_tweets = st.button("   Get Tweets and Analyze  ")
 if Analyze_tweets or st.session_state.Analyze_tweets:
     
     # Analyze_tweets = False
-    twitter_insta = Twitteruse()
+    # twitter_insta = Twitteruse()
    
 
     # print(f"tweet_count_slider{st.session_state.tweet_count_slider}")
@@ -123,7 +123,7 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
         for percent_complete in range(100):
             # time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
-
+        
         twitter_insta.get_tweets(search_string,st.session_state.tweet_count_mindate,st.session_state.tweet_count_maxdate,st.session_state.tweet_count_slider)
         my_bar.progress(percent_complete + 1, text="Sentiment Analysis Results are ready")
     
@@ -145,11 +145,11 @@ if Analyze_tweets or st.session_state.Analyze_tweets:
 
                                             
 
-        fig = px.pie(names=tweet_data['sentiment'].unique(),values=tweet_data['sentiment'].value_counts())
+        # fig = px.pie(names=tweet_data['sentiment'].unique(),values=tweet_data['sentiment'].value_counts())
         col1,col2,col3 = st.columns((4,1,3))
         with col1:
             col1.subheader("Sentiment Analysis")
-            col1.plotly_chart(fig,use_container_width=True)
+            # col1.plotly_chart(fig,use_container_width=True)
             col1.empty()
 
         with col2:

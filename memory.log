@@ -1,0 +1,44 @@
+Filename: D:\git_uploads\twitter_project\twitter\search_twitter.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    56    439.8 MiB    439.8 MiB           1       @profile(stream=log_file)
+    57                                             def get_tweets(self,search_string1,min_date,max_date,tweet_count_slider):
+    58    439.8 MiB      0.0 MiB           1           self.search_string1 = search_string1
+    59    439.8 MiB      0.0 MiB           1           self.min_date = min_date
+    60    439.8 MiB      0.0 MiB           1           self.max_date = max_date
+    61    439.8 MiB      0.0 MiB           1           self.tweet_count_slider = tweet_count_slider
+    62                                         
+    63                                                 # pool = multiprocessing.Pool()
+    64                                         
+    65    439.8 MiB      0.0 MiB          13           tweets_container= [[tweetread.id,tweetread.text,tweetread.created_at,tweetread.public_metrics['like_count'],tweetread.public_metrics['retweet_count'],tweetread['author_id']]for tweetread in tweepy.Paginator(self.client.search_recent_tweets, self.search_string1,max_results=10,start_time=self.min_date,end_time=self.max_date,tweet_fields=['public_metrics','created_at'],expansions=['author_id']).flatten(limit=self.tweet_count_slider)]  
+    66    439.8 MiB      0.0 MiB           1           columns=['tweet_ids', 'tweets text','created_at','like_count','retweet_count','userid']
+    67    439.9 MiB      0.0 MiB           1           tweets_df = pd.DataFrame(tweets_container,columns=columns)
+    68                                                 # tweets_df['conv_tweets'] = tweets_df['tweets text'].apply(lambda x : Conversion(x).unicode())
+    69                                                 # logging.info(f"\n\n conv_tweets formed")
+    70                                                 # result = pool.map(extraction_username, tweets_df['tweets text'])
+    71                                                 # tweets_df['user_mentions'] = pd.concat(result)
+    72                                         
+    73                                                 # result = pool.map(google, tweets_df['tweets text'])
+    74                                                 # tweets_df['toenglish'] = pd.concat(result)
+    75                                         
+    76                                                 # result = pool.map(sentiment, tweets_df['toenglish'])
+    77                                                 # tweets_df['sentiment'] = pd.concat(result)
+    78                                         
+    79                                                 # print(tweets_df['user_mentions'])
+    80                                         
+    81                                                 # classify = pipeline("sentiment-analysis",model="cardiffnlp/xlm-twitter-politics-sentiment")
+    82                                                 # res = classify(text)
+    83                                                 # return "".join(map(str, re.findall("'label': '(.*?)'",str(res))))
+    84                                         
+    85                                                 # tweets_df['tweets text'].apply(GoogleTranslator(source='auto').translate[:1000])
+    86                                                 
+    87                                         
+    88    439.9 MiB      0.0 MiB           1           tweets_df['user_mentions'] = tweets_df['tweets text'].apply(extraction_username)
+    89                                                 # tweets_df['toenglish'] = tweets_df['tweets text'].apply(google)
+    90   1502.4 MiB   1062.5 MiB           1           tweets_df['sentiment'] = sentiment(tweets_df['tweets text'].to_list())
+    91                                                 
+    92   1502.4 MiB      0.1 MiB           1           tweets_df.to_csv('tweetdata_checking.csv') 
+    93                                                 # pool.close()
+
+
